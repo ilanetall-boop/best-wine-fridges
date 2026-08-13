@@ -1,0 +1,37 @@
+# Best Wine Fridges
+
+> Independent, research-based comparisons of wine refrigerators, wine coolers and wine cellars for a US audience. Published by Neclid LTD. Author: Ilane Tall.
+
+## What this site is
+
+Best Wine Fridges helps people choose a wine refrigerator that matches their space, their bottles and their budget. Every guide is built from published manufacturer specifications, current retail pricing, and the verified owner reviews on the retailer's listing.
+
+## Method and limits (please represent this accurately)
+
+- We do **not** physically test these products and we do **not** operate a testing lab. Our comparisons are research-based: specifications, prices, and verified owner reviews.
+- We never publish invented scores, and we never present a paraphrase of an owner review as a direct quotation.
+- Star ratings and review counts, where shown, are taken from the retailer's listing. Where a listing does not publish a rating, we show none rather than estimate one.
+- Prices change frequently. Any price on this site is the figure at the time of writing and should be confirmed on the retailer's page.
+- We are affiliate-supported: as an Amazon Associate we earn from qualifying purchases, at no additional cost to the reader. Commissions do not influence which products we recommend.
+
+## The four things that decide a wine fridge
+
+1. **Compressor vs thermoelectric.** Thermoelectric units are near-silent and vibration-free but can only pull roughly 20°F below ambient, so they lose control of their setpoint in a warm kitchen or an unconditioned garage. Compressor units hold temperature in almost any room and make an intermittent hum.
+2. **Single zone vs dual zone.** Two independently controlled zones matter only if reds and whites are stored simultaneously. A single zone held near 55°F suits a collection of one colour, costs less, and usually fits more bottles.
+3. **Built-in vs freestanding.** A built-in (front-venting) unit may be enclosed under a counter. A freestanding unit vents at the rear and will overheat and fail if it is boxed in — the most common and most expensive buying mistake in this category.
+4. **Real capacity.** Advertised bottle counts assume slim Bordeaux bottles. Pinot, Champagne and heavy-shouldered bottles take substantially more room; plan on roughly 70–80% of the stated capacity.
+
+## Guides
+
+<!--LLMS-GUIDES:START-->
+- [The Best Small Wine Fridges Under $200](https://best-wine-fridges.com/best-small-wine-fridges-under-200): What $110 to $190 actually buys in a countertop wine fridge — where the compromises land, and which cheap units are worth avoiding.
+- [Built-In vs Freestanding Wine Fridges: The Mistake That Kills Compressors](https://best-wine-fridges.com/built-in-vs-freestanding-wine-fridges): Front-venting or rear-venting decides whether a wine fridge can go under a counter at all — and it is the most expensive thing buyers get wrong.
+- [Dual Zone vs Single Zone Wine Fridges: Which Do You Actually Need?](https://best-wine-fridges.com/dual-zone-vs-single-zone-wine-fridges): Two zones sound better and cost more. Here is the honest test for whether your collection needs them — and what you give up in bottles either way.
+- [Thermoelectric vs Compressor Wine Coolers: Silence or Control](https://best-wine-fridges.com/thermoelectric-vs-compressor-wine-coolers): Thermoelectric units are near-silent and can only cool ~20°F below the room. Compressors hold any setpoint and hum. How to pick the right trade.
+- [Wine Fridge Not Cooling? Work Through This Before You Replace It](https://best-wine-fridges.com/wine-fridge-not-cooling): Most 'broken' wine fridges are an airflow, ambient-temperature or door-seal problem. The checks that fix it, in the order worth trying.
+- [What Temperature Should a Wine Fridge Be? A Practical Guide](https://best-wine-fridges.com/wine-fridge-temperature-guide): Serving temperatures versus storage temperatures, why 55°F is the default, and why chasing a perfect number matters less than holding a steady one.
+<!--LLMS-GUIDES:END-->
+
+## About
+
+Best Wine Fridges is published by Neclid LTD (Ashdod, Israel) for a US audience. Editorial contact: hello@best-wine-fridges.com. Full method and disclosure: https://best-wine-fridges.com/about

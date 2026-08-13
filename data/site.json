@@ -1,0 +1,101 @@
+{
+  "site": {
+    "name": "Best Wine Fridges",
+    "domain": "best-wine-fridges.com",
+    "base_url": "https://best-wine-fridges.com",
+    "affiliate_tag": "best-winefridges-20",
+    "author": "Ilane Tall",
+    "template": "premium-editorial-v1",
+    "ratings_policy": "none-available",
+    "static_pages": [
+      {
+        "path": "",
+        "priority": "1.0"
+      },
+      {
+        "path": "guides",
+        "priority": "0.6"
+      },
+      {
+        "path": "about",
+        "priority": "0.3"
+      },
+      {
+        "path": "contact",
+        "priority": "0.3"
+      },
+      {
+        "path": "privacy",
+        "priority": "0.3"
+      }
+    ],
+    "network_card": {
+      "href": "https://best-espresso-machines.com/",
+      "category": "From our network",
+      "title": "The other counter appliance worth getting right",
+      "description": "Same approach, applied to espresso machines — what the spec sheet promises versus what owners actually live with."
+    }
+  },
+  "articles": [
+    {
+      "slug": "dual-zone-vs-single-zone-wine-fridges",
+      "title": "Dual Zone vs Single Zone Wine Fridges: Which Do You Actually Need?",
+      "description": "Two zones sound better and cost more. Here is the honest test for whether your collection needs them — and what you give up in bottles either way.",
+      "category": "Comparison",
+      "hero": "hero-dual-vs-single",
+      "minutes": 13,
+      "date": "2026-08-13",
+      "featured": true
+    },
+    {
+      "slug": "built-in-vs-freestanding-wine-fridges",
+      "title": "Built-In vs Freestanding Wine Fridges: The Mistake That Kills Compressors",
+      "description": "Front-venting or rear-venting decides whether a wine fridge can go under a counter at all — and it is the most expensive thing buyers get wrong.",
+      "category": "Comparison",
+      "hero": "hero-built-in-vs-freestanding",
+      "minutes": 13,
+      "date": "2026-08-13",
+      "featured": true
+    },
+    {
+      "slug": "thermoelectric-vs-compressor-wine-coolers",
+      "title": "Thermoelectric vs Compressor Wine Coolers: Silence or Control",
+      "description": "Thermoelectric units are near-silent and can only cool ~20°F below the room. Compressors hold any setpoint and hum. How to pick the right trade.",
+      "category": "Comparison",
+      "hero": "hero-thermoelectric-vs-compressor",
+      "minutes": 12,
+      "date": "2026-08-13",
+      "featured": true
+    },
+    {
+      "slug": "best-small-wine-fridges-under-200",
+      "title": "The Best Small Wine Fridges Under $200",
+      "description": "What $110 to $190 actually buys in a countertop wine fridge — where the compromises land, and which cheap units are worth avoiding.",
+      "category": "Budget picks",
+      "hero": "hero-small-under-200",
+      "minutes": 13,
+      "date": "2026-08-13",
+      "featured": true
+    },
+    {
+      "slug": "wine-fridge-temperature-guide",
+      "title": "What Temperature Should a Wine Fridge Be? A Practical Guide",
+      "description": "Serving temperatures versus storage temperatures, why 55°F is the default, and why chasing a perfect number matters less than holding a steady one.",
+      "category": "How-to",
+      "hero": "hero-temperature-guide",
+      "minutes": 12,
+      "date": "2026-08-13",
+      "featured": true
+    },
+    {
+      "slug": "wine-fridge-not-cooling",
+      "title": "Wine Fridge Not Cooling? Work Through This Before You Replace It",
+      "description": "Most 'broken' wine fridges are an airflow, ambient-temperature or door-seal problem. The checks that fix it, in the order worth trying.",
+      "category": "Troubleshooting",
+      "hero": "hero-not-cooling",
+      "minutes": 12,
+      "date": "2026-08-13",
+      "featured": true
+    }
+  ]
+}
