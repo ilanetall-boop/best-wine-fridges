@@ -116,6 +116,16 @@
       "minutes": 17,
       "date": "2026-08-18",
       "featured": true
+    },
+    {
+      "slug": "best-dual-zone-wine-fridges",
+      "title": "The Best Dual Zone Wine Fridges",
+      "description": "Two genuinely independent zones, not two compartments sharing one compressor. The units where the second zone is worth what it costs you in bottles.",
+      "category": "Roundup",
+      "hero": "hero-best-dual-zone-wine-fridges",
+      "minutes": 15,
+      "date": "2026-08-19",
+      "featured": true
     }
   ]
 }
