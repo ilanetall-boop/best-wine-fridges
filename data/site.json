@@ -126,6 +126,16 @@
       "minutes": 15,
       "date": "2026-08-19",
       "featured": true
+    },
+    {
+      "slug": "are-wine-fridges-worth-it",
+      "title": "Are Wine Fridges Worth It? An Honest Answer",
+      "description": "For a case a month, probably not. For anything you intend to keep, the kitchen fridge and the kitchen counter are both doing quiet damage. Where the line actually falls.",
+      "category": "Honest take",
+      "hero": "hero-are-wine-fridges-worth-it",
+      "minutes": 18,
+      "date": "2026-08-20",
+      "featured": true
     }
   ]
 }
