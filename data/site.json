@@ -136,6 +136,16 @@
       "minutes": 18,
       "date": "2026-08-20",
       "featured": true
+    },
+    {
+      "slug": "best-wine-and-beverage-refrigerators",
+      "title": "The Best Wine and Beverage Refrigerators (Wine and Cans in One Cabinet)",
+      "description": "One 24-inch cabinet, wine on one side at cellar temperature and cans on the other at drinking temperature. What the split really costs you in bottles.",
+      "category": "Roundup",
+      "hero": "hero-best-wine-and-beverage-refrigerators",
+      "minutes": 18,
+      "date": "2026-08-21",
+      "featured": true
     }
   ]
 }
