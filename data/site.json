@@ -146,6 +146,16 @@
       "minutes": 18,
       "date": "2026-08-21",
       "featured": true
+    },
+    {
+      "slug": "how-to-install-an-undercounter-wine-fridge",
+      "title": "How to Install an Undercounter Wine Fridge",
+      "description": "Measuring the opening, the clearances the manual actually requires, levelling the cabinet so the door self-closes, and the electrical checks worth making first.",
+      "category": "How-to",
+      "hero": "hero-how-to-install-an-undercounter-wine-fridge",
+      "minutes": 15,
+      "date": "2026-08-22",
+      "featured": true
     }
   ]
 }
