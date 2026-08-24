@@ -166,6 +166,16 @@
       "minutes": 16,
       "date": "2026-08-23",
       "featured": true
+    },
+    {
+      "slug": "wine-fridge-humidity-guide",
+      "title": "Wine Fridge Humidity: What Matters, and What Is Marketing",
+      "description": "Cork-sealed bottles want 50-70% humidity over years. For wine you will drink this season it barely matters. How to tell which situation you are in.",
+      "category": "How-to",
+      "hero": "hero-wine-fridge-humidity-guide",
+      "minutes": 16,
+      "date": "2026-08-24",
+      "featured": true
     }
   ]
 }
