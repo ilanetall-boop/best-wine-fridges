@@ -176,6 +176,16 @@
       "minutes": 16,
       "date": "2026-08-24",
       "featured": true
+    },
+    {
+      "slug": "wine-fridge-vs-kitchen-fridge-vs-wine-cellar",
+      "title": "Wine Fridge vs Kitchen Fridge vs Wine Cellar: Where Should Wine Actually Live?",
+      "description": "Three storage options, three different failure modes. What each one does to a bottle over a week, a season and five years.",
+      "category": "Comparison",
+      "hero": "hero-wine-fridge-vs-kitchen-fridge-vs-wine-cellar",
+      "minutes": 15,
+      "date": "2026-08-25",
+      "featured": true
     }
   ]
 }
