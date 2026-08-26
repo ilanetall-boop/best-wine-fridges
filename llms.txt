@@ -24,6 +24,7 @@ Best Wine Fridges helps people choose a wine refrigerator that matches their spa
 ## Guides
 
 <!--LLMS-GUIDES:START-->
+- [How to Organize a Wine Fridge (So You Can Actually Find the Bottle)](https://best-wine-fridges.com/how-to-organize-a-wine-fridge): Shelf-by-shelf logic, why the top and bottom of a cabinet are not the same temperature, and how to stop rearranging everything each time you buy a case.
 - [Wine Fridge vs Kitchen Fridge vs Wine Cellar: Where Should Wine Actually Live?](https://best-wine-fridges.com/wine-fridge-vs-kitchen-fridge-vs-wine-cellar): Three storage options, three different failure modes. What each one does to a bottle over a week, a season and five years.
 - [Wine Fridge Humidity: What Matters, and What Is Marketing](https://best-wine-fridges.com/wine-fridge-humidity-guide): Cork-sealed bottles want 50-70% humidity over years. For wine you will drink this season it barely matters. How to tell which situation you are in.
 - [The Best Large Wine Fridges (100 Bottles and Up)](https://best-wine-fridges.com/best-large-wine-fridges-100-bottles-and-up): At this size the specification that matters is fan-forced circulation, not bottle count. The cabinets that hold one even temperature top to bottom.
