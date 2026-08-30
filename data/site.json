@@ -196,6 +196,16 @@
       "minutes": 16,
       "date": "2026-08-26",
       "featured": true
+    },
+    {
+      "slug": "best-wine-fridges-under-300",
+      "title": "The Best Wine Fridges Under $300",
+      "description": "Where the budget end genuinely holds up, and the two things it always gives away.",
+      "category": "Buying guide",
+      "hero": "hero-best-wine-fridges-under-300",
+      "minutes": 15,
+      "date": "2026-08-30",
+      "featured": true
     }
   ]
 }
