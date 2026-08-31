@@ -206,6 +206,16 @@
       "minutes": 15,
       "date": "2026-08-30",
       "featured": true
+    },
+    {
+      "slug": "wine-fridge-noise-and-vibration",
+      "title": "Wine Fridge Noise: What Is Normal, and What Ruins Wine",
+      "description": "Compressor hum, thermoelectric fan whirr, and the vibration question that actually matters for ageing.",
+      "category": "Guide",
+      "hero": "hero-wine-fridge-noise-and-vibration",
+      "minutes": 16,
+      "date": "2026-08-31",
+      "featured": true
     }
   ]
 }

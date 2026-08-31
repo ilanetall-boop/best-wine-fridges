@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wine Fridge Noise: What Is Normal, and What Ruins Wine</title>
+<meta name="description" content="Compressor hum, thermoelectric fan whirr, and the vibration question that actually matters for ageing.">
+<link rel="canonical" href="https://best-wine-fridges.com/wine-fridge-noise-and-vibration">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Best Wine Fridges">
+<meta property="og:title" content="Wine Fridge Noise: What Is Normal, and What Ruins Wine">
+<meta property="og:description" content="Compressor hum, thermoelectric fan whirr, and the vibration question that actually matters for ageing.">
+<meta property="og:image" content="https://best-wine-fridges.com/images/hero-wine-fridge-noise-and-vibration.webp">
+<meta property="og:url" content="https://best-wine-fridges.com/wine-fridge-noise-and-vibration">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Wine Fridge Noise: What Is Normal, and What Ruins Wine">
+<meta name="twitter:description" content="Compressor hum, thermoelectric fan whirr, and the vibration question that actually matters for ageing.">
+<meta name="twitter:image" content="https://best-wine-fridges.com/images/hero-wine-fridge-noise-and-vibration.webp">
+<meta name="theme-color" content="#1A0710">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="alternate icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+  :root{
+    --ground:#F7F3F2; --surface:#FFFFFF; --surface-2:#F1E7E8;
+    --ink:#231016; --ink-soft:#45222C; --muted:#7A5C63; --line:#E7D9DB;
+    --wine:#9B2247; --wine-deep:#6B1230; --wine-tint:#F7E6EB;
+    --brass:#A9803A; --brass-lite:#CFA666; --brass-tint:#F5ECDC;
+    --dark:#1A0710; --dark-2:#2E0F1D; --on-dark:#F3E8EA; --on-dark-mute:#B79AA2;
+    --star:#D9A400;
+    --shadow:0 1px 2px rgba(35,16,22,.05),0 22px 48px -26px rgba(35,16,22,.32);
+    --shadow-sm:0 1px 2px rgba(35,16,22,.05),0 10px 24px -16px rgba(35,16,22,.26);
+    --radius:20px; --radius-sm:12px; --maxw:1120px;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --ground:#150609; --surface:#200C13; --surface-2:#2A1119;
+    --ink:#F3E8EA; --ink-soft:#DBC4CA; --muted:#A98D94; --line:#3B1A24;
+    --wine:#E8798F; --wine-deep:#F3A3B3; --wine-tint:#2C0F19;
+    --brass:#D9B36A; --brass-lite:#E7C98C; --brass-tint:#241C0E;
+    --surface-2b:#2A1119;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }}
+  :root[data-theme="dark"]{
+    --ground:#150609; --surface:#200C13; --surface-2:#2A1119;
+    --ink:#F3E8EA; --ink-soft:#DBC4CA; --muted:#A98D94; --line:#3B1A24;
+    --wine:#E8798F; --wine-deep:#F3A3B3; --wine-tint:#2C0F19;
+    --brass:#D9B36A; --brass-lite:#E7C98C; --brass-tint:#241C0E;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);
+    font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 26px}
+  a{color:inherit}
+  h1,h2,h3{margin:0;line-height:1.08;letter-spacing:-.01em;text-wrap:balance}
+  .serif{font-family:var(--serif)}
+  p{margin:0 0 1rem}
+  .eyebrow{font-family:var(--sans);font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
+  .tnum{font-variant-numeric:tabular-nums}
+  .stars{color:var(--star);letter-spacing:2px}
+
+  /* ---------- header ---------- */
+  header.site{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--ground) 82%,transparent);
+    backdrop-filter:saturate(1.3) blur(12px);border-bottom:1px solid var(--line)}
+  .bar{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{display:inline-flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);font-weight:700;letter-spacing:-.01em}
+  .brand .bn{font-family:var(--serif);font-size:1.16rem}
+  nav.site a{color:var(--muted);text-decoration:none;font-size:.86rem;font-weight:600;letter-spacing:.01em;margin-left:22px;transition:color .2s}
+  nav.site a:hover{color:var(--ink)}
+  @media (max-width:660px){nav.site{display:none}}
+
+  /* ---------- hero (immersive dark, cellar light) ---------- */
+  .hero{position:relative;background:radial-gradient(120% 90% at 80% -10%,var(--dark-2),var(--dark) 60%);color:var(--on-dark);overflow:hidden;isolation:isolate}
+  .caustic{position:absolute;inset:-30%;z-index:0;opacity:.5;pointer-events:none;filter:blur(30px);
+    background:
+      radial-gradient(28% 40% at 22% 30%,rgba(232,121,143,.26),transparent 60%),
+      radial-gradient(24% 34% at 74% 24%,rgba(217,179,106,.22),transparent 60%),
+      radial-gradient(30% 42% at 60% 78%,rgba(155,34,71,.30),transparent 62%);
+    animation:drift 22s ease-in-out infinite alternate}
+  .caustic.b{opacity:.35;animation-duration:30s;animation-direction:alternate-reverse;
+    background:
+      radial-gradient(26% 36% at 40% 60%,rgba(243,163,179,.22),transparent 60%),
+      radial-gradient(22% 30% at 85% 70%,rgba(217,179,106,.20),transparent 60%)}
+  @keyframes drift{0%{transform:translate3d(-2%,-1%,0) scale(1)}50%{transform:translate3d(3%,2%,0) scale(1.08)}100%{transform:translate3d(-1%,3%,0) scale(1.04)}}
+  .hero .wrap{position:relative;z-index:1;padding:74px 26px 88px}
+  .hero .eyebrow{color:var(--brass-lite)}
+  .hero h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.5rem,1.4rem+4.6vw,4.7rem);letter-spacing:-.02em;max-width:15ch;margin:.5rem 0 0}
+  .hero h1 em{font-style:italic;color:var(--brass-lite)}
+  .hero .lede{font-size:1.24rem;line-height:1.55;color:var(--on-dark-mute);max-width:52ch;margin-top:1.3rem}
+  .hero .meta{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:26px;font-size:.86rem;color:var(--on-dark-mute)}
+  .hero .meta b{color:var(--on-dark)}
+  .rule{height:1px;background:linear-gradient(90deg,var(--brass),transparent);border:0;margin:26px 0 0;max-width:220px}
+
+  /* ---------- #1 feature (the centerpiece) ---------- */
+  .feature{position:relative;z-index:2;margin:-56px 0 0}
+  .feature .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+    display:grid;grid-template-columns:1.1fr 1fr;overflow:hidden}
+  .feature .left{padding:38px}
+  .feature .kick{display:inline-flex;align-items:center;gap:9px;color:var(--brass-text);font-weight:700;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase}
+  .feature .kick::before{content:"";width:26px;height:1px;background:var(--brass)}
+  .feature h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.8rem,1.2rem+2vw,2.7rem);margin:.5rem 0 .2rem}
+  .feature .verdict{color:var(--ink-soft);font-size:1.06rem;margin:.4rem 0 1rem;max-width:44ch}
+  .feature .rl{display:flex;align-items:center;gap:10px;font-size:.92rem;color:var(--muted);margin-bottom:1.2rem}
+  .feature .rl b{color:var(--ink)}
+  .btn{display:inline-flex;align-items:center;gap:9px;background:var(--wine);color:#fff;font-weight:700;
+    padding:14px 26px;border-radius:12px;text-decoration:none;box-shadow:var(--shadow-sm);transition:transform .15s,background .2s}
+  .btn:hover{background:var(--wine-deep);transform:translateY(-1px)}
+  .btn .arw{transition:transform .2s}.btn:hover .arw{transform:translateX(3px)}
+  .feature .right{background:linear-gradient(160deg,var(--dark-2),var(--dark));color:var(--on-dark);padding:38px;display:flex;flex-direction:column;justify-content:center;gap:6px;position:relative}
+  .feature .right .lab{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--on-dark-mute)}
+  .feature .bigprice{font-family:var(--serif);font-size:clamp(3rem,2rem+4vw,4.4rem);font-weight:600;line-height:1;color:var(--brass-lite)}
+  .feature .bigprice sup{font-size:.4em;top:-1.2em;color:var(--on-dark)}
+  .feature .right .note{color:var(--on-dark-mute);font-size:.92rem;margin-top:6px;max-width:30ch}
+  .feature .right .mono{margin-top:16px;font-family:var(--serif);font-size:1.05rem;color:var(--on-dark)}
+  @media (max-width:820px){.feature .card{grid-template-columns:1fr}.feature .right{order:-1}}
+
+  /* ---------- generic section ---------- */
+  section{padding:44px 0}
+  .kicker{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+  .kicker .eyebrow{color:var(--wine-deep)}
+  .kicker::after{content:"";flex:1;height:1px;background:var(--line)}
+  .h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.7rem,1.2rem+1.7vw,2.5rem);letter-spacing:-.01em}
+  .sub{color:var(--muted);max-width:62ch;margin:.6rem 0 0}
+
+  .notes{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-top:24px}
+  .notes .n{background:var(--surface);padding:24px}
+  .notes .num{font-family:var(--serif);font-size:1.5rem;color:var(--brass-text);line-height:1}
+  .notes h3{font-size:1.02rem;font-weight:750;margin:.5rem 0 .35rem}
+  .notes p{font-size:.9rem;color:var(--muted);margin:0}
+  @media (max-width:820px){.notes{grid-template-columns:1fr 1fr}}
+  @media (max-width:520px){.notes{grid-template-columns:1fr}}
+
+  /* comparison */
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);background:var(--surface);margin-top:22px}
+  table{border-collapse:collapse;width:100%;min-width:740px;font-size:.94rem}
+  thead th{background:var(--surface-2);text-align:left;padding:16px;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line)}
+  td{padding:15px 16px;border-bottom:1px solid var(--line);vertical-align:middle}
+  tbody tr:last-child td{border-bottom:0}
+  tbody tr:hover{background:var(--surface-2)}
+  td.name{font-family:var(--serif);font-weight:600;font-size:1.05rem}
+  .win td{background:var(--brass-tint)}
+  .win td.name{color:var(--brass-text)}
+  .win td:first-child{box-shadow:inset 3px 0 0 var(--brass)}
+  .price{font-weight:800;font-variant-numeric:tabular-nums}
+  .rev{color:var(--muted);font-size:.82rem}
+  .tget{display:inline-block;background:var(--ink);color:var(--surface);font-weight:700;font-size:.8rem;padding:8px 14px;border-radius:9px;text-decoration:none;white-space:nowrap;transition:background .2s}
+  .tget:hover{background:var(--wine-deep);color:#fff}
+
+  /* picks (editorial cards) */
+  .picks{display:flex;flex-direction:column;gap:26px;margin-top:26px}
+  .pick{display:grid;grid-template-columns:96px 1fr auto;gap:26px;align-items:start;
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:28px}
+  .pick .rank{font-family:var(--serif);font-size:2.6rem;color:var(--brass-text);line-height:.9;font-weight:600}
+  .pick .rank small{display:block;font-family:var(--sans);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-top:8px}
+  .pick h3{font-family:var(--serif);font-weight:600;font-size:1.44rem}
+  .pick .who{color:var(--wine-deep);font-weight:700;font-size:.9rem;margin:.25rem 0 .5rem}
+  .pick .rl2{display:flex;align-items:center;gap:8px;font-size:.86rem;color:var(--muted);margin-bottom:.7rem}
+  .pick .rl2 b{color:var(--ink)}
+  .pick p.body{margin:.2rem 0 0;color:var(--ink-soft)}
+  .quote{border-left:2px solid var(--brass);padding-left:14px;margin:.9rem 0 0;font-family:var(--serif);font-style:italic;color:var(--ink);font-size:1.02rem}
+  .aside{display:flex;flex-direction:column;align-items:flex-end;gap:12px;text-align:right;min-width:150px}
+  .aside .pr{font-family:var(--serif);font-size:2rem;font-weight:600;font-variant-numeric:tabular-nums;line-height:1}
+  .aside .tag{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .buy{display:inline-flex;align-items:center;gap:8px;background:var(--wine);color:#fff;font-weight:700;padding:11px 20px;border-radius:10px;text-decoration:none;transition:background .2s,transform .15s;font-size:.92rem}
+  .buy:hover{background:var(--wine-deep);transform:translateY(-1px)}
+  @media (max-width:820px){.pick{grid-template-columns:64px 1fr}.aside{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center;text-align:left;border-top:1px solid var(--line);padding-top:16px}}
+
+  /* method / faq */
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:22px}
+  @media (max-width:760px){.cols{grid-template-columns:1fr}}
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow-sm)}
+  .panel .eyebrow{color:var(--wine-deep)}
+  .panel h3{font-family:var(--serif);font-weight:600;font-size:1.3rem;margin:.5rem 0 .5rem}
+  .panel p{color:var(--muted);margin:0}
+  .faq details{border-top:1px solid var(--line);padding:16px 0}
+  .faq details:first-of-type{border-top:0}
+  .faq summary{cursor:pointer;font-family:var(--serif);font-size:1.12rem;list-style:none;display:flex;justify-content:space-between;gap:14px;color:var(--ink)}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";color:var(--brass-text);font-family:var(--sans);font-weight:700}
+  .faq details[open] summary::after{content:"–"}
+  .faq p{margin:.8rem 0 0;color:var(--muted)}
+
+  footer.site{margin-top:20px;background:var(--dark);color:var(--on-dark-mute)}
+  footer .wrap{padding:40px 26px}
+  footer .fbrand{font-family:var(--serif);color:var(--on-dark);font-size:1.2rem}
+  footer p{font-size:.84rem;margin:.6rem 0 0;max-width:80ch}
+  footer a{color:var(--brass-lite)}
+  /* imagery */
+  .hero .wrap{display:grid;grid-template-columns:1.12fr .88fr;gap:48px;align-items:center}
+  .hero .himg{border-radius:20px;border:1px solid rgba(207,166,102,.4);box-shadow:0 30px 60px -30px rgba(0,0,0,.55);width:100%;height:auto;display:block}
+  @media (max-width:860px){.hero .wrap{grid-template-columns:1fr;gap:30px}}
+  .fpimg{background:#fff;border-radius:14px;padding:14px;box-shadow:0 12px 28px -14px rgba(0,0,0,.5);width:min(230px,70%);margin-bottom:16px}
+  .fpimg img{width:100%;height:auto;display:block}
+  .aside .pimg{width:150px;height:150px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px;display:flex;align-items:center;justify-content:center}
+  .aside .pimg img{max-width:100%;max-height:100%;display:block}
+  @media (max-width:820px){.aside .pimg{width:96px;height:96px;padding:6px}}
+  td.name{display:flex;align-items:center;gap:12px}
+  .thumb{width:46px;height:46px;flex:0 0 auto;background:#fff;border:1px solid var(--line);border-radius:9px;padding:4px}
+  .thumb img{width:100%;height:100%;object-fit:contain;display:block}
+  :focus-visible{outline:2px solid var(--wine);outline-offset:3px;border-radius:5px}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}.btn:hover,.buy:hover{transform:none}}
+</style>
+<style>
+  .artmain{max-width:68ch;margin:0 auto;padding:36px 0 8px}
+  .artmain h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.5rem,1.1rem+1.4vw,2.15rem);letter-spacing:-.01em;margin:2.5rem 0 .85rem}
+  .artmain h3{font-family:var(--serif);font-weight:600;font-size:1.22rem;margin:1.9rem 0 .5rem}
+  .artmain p{color:var(--ink-soft);font-size:1.06rem;line-height:1.68}
+  .artmain ul,.artmain ol{color:var(--ink-soft);font-size:1.06rem;line-height:1.68;padding-left:1.15rem;margin:0 0 1.1rem}
+  .artmain li{margin:.45rem 0}
+  .artmain p a,.artmain li a{color:var(--wine-deep);font-weight:600;text-underline-offset:3px}
+  .artmain p a:hover,.artmain li a:hover{color:var(--wine)}
+  .byline{color:var(--muted);font-size:.9rem;margin:0 0 1.2rem}
+  .disclosure{font-size:.86rem;color:var(--muted);border-left:2px solid var(--brass);padding:2px 0 2px 14px;margin:0 0 1.8rem}
+  .tldr{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-sm);box-shadow:var(--shadow-sm);padding:24px 26px;margin:0 0 1.6rem}
+  .tldr .eyebrow{color:var(--wine-deep)}
+  .tldr p{margin:.7rem 0 0;color:var(--ink)}
+  .tldr p:first-of-type{margin-top:.6rem}
+  .callout{background:var(--wine-tint);border-radius:var(--radius-sm);padding:20px 24px;margin:1.6rem 0}
+  .callout p{margin:0;color:var(--ink)}
+  .callout p+p{margin-top:.7rem}
+  .keep{border-top:1px solid var(--line);margin-top:2.6rem;padding-top:1.6rem}
+  .keep .eyebrow{color:var(--wine-deep)}
+  .keep ul{list-style:none;padding:0;margin:1rem 0 0}
+  .keep li{margin:.85rem 0}
+  .keep li a{font-family:var(--serif);font-size:1.1rem;font-weight:600;color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line)}
+  .keep li a:hover{border-bottom-color:var(--wine)}
+  .keep li span{display:block;color:var(--muted);font-size:.9rem;margin-top:.2rem}
+  .zonebar{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius-sm);overflow:hidden;margin:1.6rem 0}
+  .zonebar div{background:var(--surface);padding:20px 22px}
+  .zonebar h4{margin:0 0 .4rem;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--wine-deep)}
+  .zonebar p{margin:0;font-size:.95rem;color:var(--ink-soft)}
+  @media (max-width:640px){.zonebar{grid-template-columns:1fr}}
+  .artmain .sig{color:var(--muted);font-size:.92rem;font-style:italic;border-top:1px solid var(--line);padding-top:1.2rem;margin-top:2.2rem}
+</style>
+<style id="a11y">:root{--brass-text:#7A5E28;--star:#B07E00}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--brass-text:#E7C98C;--star:#E8B84B}}:root[data-theme="dark"]{--brass-text:#E7C98C;--star:#E8B84B}nav.site a{color:var(--ink-soft)}.stars{color:var(--star)}thead th{color:var(--ink-soft)}.rev{color:var(--ink-soft)}.kick{color:var(--brass-text)}.win td.name{color:var(--brass-text)}a.btn,a.buy,.btn,.buy{background:#8E1F40 !important;color:#fff !important;text-decoration:none !important}a.btn:hover,a.buy:hover,.btn:hover,.buy:hover{background:#6B1230 !important}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) a.btn,:root:not([data-theme="light"]) a.buy,:root:not([data-theme="light"]) .btn,:root:not([data-theme="light"]) .buy{background:#F0A3B3 !important;color:#2B0A12 !important}:root:not([data-theme="light"]) .btn:hover,:root:not([data-theme="light"]) .buy:hover{background:#F7C0CB}}:root[data-theme="dark"] a.btn,:root[data-theme="dark"] a.buy,:root[data-theme="dark"] .btn,:root[data-theme="dark"] .buy{background:#F0A3B3 !important;color:#2B0A12 !important}</style>
+</head>
+<body>
+<header class="site"><div class="wrap bar">
+  <a class="brand" href="/" aria-label="Best Wine Fridges">
+    <svg class="logomark" width="36" height="36" viewBox="0 0 40 40" aria-hidden="true">
+      <defs><radialGradient id="lm" cx="34%" cy="26%" r="86%"><stop offset="0" stop-color="#A32449"/><stop offset=".7" stop-color="#6B1230"/><stop offset="1" stop-color="#2B0D1A"/></radialGradient></defs>
+      <circle cx="20" cy="20" r="19" fill="url(#lm)"/>
+      <circle cx="20" cy="20" r="18.4" fill="none" stroke="#CFA666" stroke-width="1.1" stroke-opacity=".92"/>
+      <circle cx="20" cy="20" r="15.3" fill="none" stroke="#F3E8EA" stroke-width=".6" stroke-opacity=".22"/>
+      <path d="M13.6 10.4h12.8l-1.1 6.2a5.4 5.4 0 0 1-10.6 0Z" fill="#F7F2F3"/>
+      <path d="M20 21.9v6.4" fill="none" stroke="#F7F2F3" stroke-width="1.7" stroke-linecap="round"/>
+      <path d="M15.6 29.3h8.8" fill="none" stroke="#CFA666" stroke-width="1.7" stroke-linecap="round"/>
+      <path d="M14.9 14.6h10.2" fill="none" stroke="#A32449" stroke-width="1.3" stroke-opacity=".55"/>
+    </svg>
+    <span class="bn">Best&thinsp;Wine&thinsp;Fridges</span>
+  </a>
+  <nav class="site" aria-label="Primary">
+    <a href="/#feature">Top pick</a><a href="/#compare">Compare</a><a href="/#picks">The six</a><a href="/#how">Method</a><a href="/#faq">FAQ</a>
+  <a href="/guides">All guides</a></nav>
+</div></header>
+
+<a id="top"></a>
+<div class="hero">
+  <div class="caustic" aria-hidden="true"></div><div class="caustic b" aria-hidden="true"></div>
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Guide &middot; Noise &amp; Vibration</span>
+      <h1 class="serif">Wine fridge noise: what's <em>normal</em>, and what ruins wine</h1>
+      <p class="lede">Every wine fridge makes some sound — a compressor hums, a thermoelectric fan whirrs. The question that actually matters isn't whether you can hear it. It's whether the noise means anything is wrong, and whether the vibration underneath it can hurt what's inside.</p>
+      <div class="meta"><span>By <b>Ilane Tall</b></span><span>Updated <b>August 31, 2026</b></span><span><b>Research-based</b> — no testing lab, no invented scores</span></div>
+      <hr class="rule">
+    </div>
+    <img class="himg" src="/images/hero-wine-fridge-noise-and-vibration.webp" width="1600" height="900" loading="eager" fetchpriority="high" decoding="async" alt="A wine fridge with rows of bottles in a quiet, softly lit room, illustrating the noise and vibration question buyers ask before purchasing">
+  </div>
+</div>
+
+<div class="wrap">
+<main class="artmain">
+
+  <p class="byline">By Ilane Tall · Updated August 31, 2026 · Research-based.</p>
+  <p class="disclosure">Reader-supported: we may earn a commission when you buy through the links on this page, at no additional cost to you. It never changes which product we recommend. Prices quoted below were correct at the time of writing and move often.</p>
+
+  <div class="tldr">
+    <span class="eyebrow">The short version</span>
+    <p>Almost everything you hear from a wine fridge is the appliance doing its job. A compressor unit hums and clicks on and off in cycles; a thermoelectric unit runs a small fan more or less continuously. Neither is a defect.</p>
+    <p>Vibration from a domestic compressor is real but mild, and there's no solid evidence it meaningfully damages wine over the timescales most people actually store it — weeks to a few years. The things proven to damage wine are heat, light and temperature swings, not the gentle shake of a compressor mount.</p>
+    <p>What <em>is</em> worth acting on: noise that changes — gets louder, more frequent, or turns into a new rattle or grind. That's a maintenance signal, covered in <a href="#warning-noises">the section on noises that mean something's wrong</a>.</p>
+  </div>
+
+  <h2 id="where-noise-comes-from">Where the noise actually comes from</h2>
+
+  <p>A wine fridge makes noise for the same reason any refrigeration appliance does: moving heat out of a cold space takes mechanical work, and mechanical work is never silent. Where that work happens, and how loud it sounds in your kitchen, depends entirely on which of the two cooling technologies is inside the cabinet.</p>
+
+  <p>A <strong>compressor</strong> unit works the same way a kitchen fridge or a beverage cooler does — the comparison is worth making explicit in our <a href="/wine-fridge-vs-kitchen-fridge-vs-wine-cellar">wine fridge vs kitchen fridge vs wine cellar</a> guide. A motor-driven compressor squeezes refrigerant gas, a condenser fan pushes heat out the back, and an evaporator fan circulates cold air inside the cabinet. The compressor doesn't run continuously; it cycles on when the interior drifts above the setpoint and off once it's cooled back down. That cycling is exactly what you hear: a low hum or whir while it's running, a soft click or thunk at the start and end of each cycle, and near-silence in between. A well-built, well-placed compressor unit is not silent, but it is quiet enough to sit in most kitchens without becoming background irritation.</p>
+
+  <p>A <strong>thermoelectric</strong> unit has no compressor and no refrigerant loop at all. It uses a Peltier module — a solid-state plate that moves heat from one side to the other when current runs through it — paired with a heat sink and one or more small fans to carry that heat away. There's no gas to compress and nothing to click on and off in the same way, so thermoelectric units are meaningfully quieter at rest. What you do still hear is the fan, and on most units that fan runs nearly all the time rather than cycling, which trades the compressor's intermittent hum for a steadier, lower-level whoosh.</p>
+
+  <p>One more source gets overlooked: the cabinet itself. Any wine fridge is a rigid box, and a rigid box sitting on or against another rigid surface can act as a sounding board, turning a mechanical vibration that would otherwise be inaudible into an audible hum. This is why the same unit can sound completely different in two kitchens — the compressor or fan hasn't changed, but what it's resting against has. We come back to this in <a href="#placement">placement changes that halve the perceived noise</a>, because it's the single biggest noise variable you actually control.</p>
+
+  <h2 id="thermoelectric-vs-compressor">Thermoelectric versus compressor, in a quiet room</h2>
+
+  <p>If noise is the deciding factor in your purchase, the cooling technology matters far more than the brand, and the honest comparison has a real trade-off buried in it — not just "thermoelectric is quieter."</p>
+
+  <p>Thermoelectric units are the quiet choice for a bedroom, a home office, a nursery, or any small room where a compressor's cycling hum would be noticeable at night. Because there's no compressor and no refrigerant, there's also no vibration transmitted into a shelf or a cabinet — the only moving part is a small fan. The <a href="/best-wine-fridges-under-300">budget end of the category</a>, where most thermoelectric units live, is dominated by this technology for exactly this reason.</p>
+
+  <p>The trade-off is capability, not sound quality: thermoelectric cooling can only pull the interior down to roughly 20°F below whatever the room already is. In a 70°F room, that's a usable mid-50s setpoint. In an 85°F garage or an un-air-conditioned summer kitchen, the same unit may never reach cellar temperature at all — it will simply run its fan continuously, trying. That's not a fault; it's the physics of the technology, and it's worth knowing before you buy one for a warm room, not after.</p>
+
+  <p>Compressor units close that gap. Because they move heat the same way a refrigerator does, they can hold a setpoint regardless of how warm the room gets, within the limits of their stated range. The trade is the one this whole guide is about: a compressor cycles on and off, and while it's running, it is audibly louder than a thermoelectric fan. If the fridge is going in a quiet bedroom and the room stays cool year-round, that's a real cost for no benefit. If it's going in a kitchen, a garage, or anywhere temperature swings with the seasons, it's the only technology that reliably holds its number.</p>
+
+  <p>The practical rule: match the technology to the room before you match the brand. A silent room wants thermoelectric. A room that gets warm wants a compressor and accepts the hum that comes with it.</p>
+
+  <h2 id="vibration">Does vibration really hurt wine, and over what timescale</h2>
+
+  <p>This is the question that generates the most confident-sounding, least-sourced claims in the category, so it's worth being precise about what's established and what isn't.</p>
+
+  <p>The mechanism people worry about is real in principle: sustained, forceful vibration can disturb sediment in a bottle, and in theory could accelerate some of the slow chemical reactions — ester formation, tannin polymerization — that shape how wine develops. The vibration levels where this is documented, however, come almost entirely from <strong>transport</strong>: trucking, shipping, and repeated handling over long distances, which subjects bottles to far more frequent and far more forceful shaking than a compressor mount ever produces sitting still in a kitchen. A domestic compressor's vibration is orders of magnitude gentler and, critically, it's a low-amplitude cycling vibration rather than the road-and-rail jostling the transport research actually measured.</p>
+
+  <p>For the timescale most people actually care about — a fridge holding wine for a few weeks up to a few years before it's opened — there is no solid evidence that ordinary domestic compressor vibration meaningfully changes how the wine tastes. The claim gets repeated constantly online with a confidence the underlying evidence doesn't support for this specific case. That doesn't mean vibration is irrelevant to wine in general; it means the domestic-refrigerator version of the concern is much smaller than the marketing copy around thermoelectric units implies.</p>
+
+  <p>What the evidence <em>does</em> support, consistently and without much controversy, is that heat, light and temperature instability degrade wine — a bottle held at a swinging 48–62°F ages worse than one held steadily at 57°F, regardless of which cooling technology produced either number. If you're deciding how much to worry about vibration, spend that attention budget on temperature stability instead; it's the variable actually proven to matter. Our <a href="/wine-fridge-humidity-guide">humidity guide</a> covers the other storage-condition question people ask alongside this one, with the same standard: state what's established, and say plainly when it isn't.</p>
+
+  <p>Where vibration is worth a genuine precaution: a serious long-term collection, held for a decade or more, where sediment-heavy bottles are lying undisturbed for years at a time. In that specific case, minimizing vibration is a reasonable "why not" — it costs nothing to choose a stable surface — even without proof that skipping it would cause measurable harm. For the collection most buyers actually own, this is a minor consideration next to getting the temperature right, covered in our broader <a href="/are-wine-fridges-worth-it">honest look at whether a wine fridge is worth buying</a> in the first place.</p>
+
+  <h2 id="placement">Placement changes that halve the perceived noise</h2>
+
+  <p>Before assuming a unit is defective or shopping for a different model, it's worth ruling out placement — because the same fridge can sound dramatically different depending on where and how it sits, and most of the fixes cost nothing.</p>
+
+  <p><strong>Put it on a rigid, level surface.</strong> An unlevel cabinet forces the compressor and fans to work slightly against gravity in one direction, which increases both running time and vibration. A few minutes with a level, adjusting the feet until the unit sits flat, is the single highest-value fix available and it's free.</p>
+
+  <p><strong>Give it the clearance the manual specifies.</strong> Freestanding units reject heat out of the back and sides; blocking that airflow makes the compressor work harder and run longer per cycle, which directly increases the noise you hear over the course of a day. This is the same clearance rule that governs whether a freestanding unit can survive being built into a cabinet — worth reading in full in our <a href="/how-to-install-an-undercounter-wine-fridge">guide to installing an undercounter wine fridge</a> if that's where yours is headed.</p>
+
+  <p><strong>Don't set it directly against a hollow surface.</strong> A wine fridge pushed flush against a hollow-core cabinet panel or a drywall partition can turn that panel into a sounding board, amplifying a vibration that would otherwise be inaudible. A thin rubber or felt pad under the feet, or an inch of clearance from the wall behind it, breaks that resonance path.</p>
+
+  <p><strong>Account for room temperature.</strong> A compressor unit in a room that regularly hits 80°F+ will cycle on more often and run longer each time than the same unit in a 68°F room, simply because it has more heat to remove. If noise is the priority, keeping the fridge out of direct sun and away from ovens or radiators reduces both its workload and how often you hear it working.</p>
+
+  <p><strong>Think about what's on the other side of the wall.</strong> A compressor's hum travels through a shared wall more easily than through open air. If the fridge backs onto a bedroom, moving it a few feet, or orienting it so the compressor side faces a hallway instead, does more for perceived noise at night than any spec sheet number.</p>
+
+  <h2 id="quietest-picks">The quietest picks</h2>
+
+  <p>Published sound-level ratings are inconsistent across this category — many listings simply don't provide a decibel figure — so the reliable signal is cooling technology, not a number on a spec sheet. All three of the following are thermoelectric, which means no compressor cycling and no refrigerant vibration; the fourth is a compressor unit included for households that need the colder range or larger capacity a compressor allows and can accept the trade-off.</p>
+
+  <div class="picks">
+    <article class="pick">
+      <div class="rank">01<small>Smallest footprint</small></div>
+      <div>
+        <h3 class="serif">Ivation Premium 8 Bottle Horizontal Thermoelectric</h3>
+        <p class="who">Quiet operation for a countertop or a bedside shelf</p>
+        <div class="rl2"><b>8 bottles</b><span>&middot;</span><b>Thermoelectric</b><span>&middot;</span><span>Digital temperature control</span><span>&middot;</span><span>Freestanding</span></div>
+        <p class="body">A horizontal countertop unit sized for a small collection rather than a room-sized cabinet. Thermoelectric cooling means the only moving part making noise is a small fan — there is no compressor to click on and off nearby. Digital temperature control lets you set and hold a number without guessing at a dial. Like every thermoelectric unit, it cools relative to room temperature rather than to an absolute floor, so it belongs somewhere the room itself doesn't get hot.</p>
+        <p class="quote">The one to buy if the fridge needs to disappear into a quiet room, not dominate a kitchen.</p>
+      </div>
+      <div class="aside">
+        <span class="pimg"><img src="/images/amazon-B0FP3VMH89.webp" alt="Ivation Premium 8 Bottle Horizontal Thermoelectric Wine Cooler" width="150" height="150" loading="lazy" decoding="async"></span>
+        <div><span class="tag">Price</span><div class="pr">$159.99</div></div>
+        <a class="buy" href="https://www.amazon.com/dp/B0FP3VMH89?tag=best-winefridges-20" rel="nofollow sponsored noopener" target="_blank">Check price &rarr;</a>
+      </div>
+    </article>
+    <article class="pick">
+      <div class="rank">02<small>Quiet, with more capacity</small></div>
+      <div>
+        <h3 class="serif">BLACK+DECKER 12-Bottle Thermoelectric, BD60336</h3>
+        <p class="who">A step up in bottles without adding a compressor</p>
+        <div class="rl2"><b>12 bottles</b><span>&middot;</span><b>Thermoelectric</b><span>&middot;</span><span>Mirrored door</span><span>&middot;</span><span>Freestanding</span></div>
+        <p class="body">Twelve bottles in a still-compact freestanding cabinet, cooled the same low-noise way as the 8-bottle option above. The mirrored door is a cosmetic choice, not a cooling one — it doesn't change the noise profile, only the look on a counter or sideboard. As with any thermoelectric unit, plan on it holding roughly 20°F below whatever the room is doing, which is the reason it belongs in living spaces rather than a warm garage.</p>
+        <p class="quote">The reasonable middle size if eight bottles is too few but a compressor's hum is unwelcome.</p>
+      </div>
+      <div class="aside">
+        <span class="pimg"><img src="/images/amazon-B08NDDKQZZ.webp" alt="BLACK+DECKER 12-Bottle Thermoelectric Wine Chiller BD60336 with mirrored door" width="150" height="150" loading="lazy" decoding="async"></span>
+        <div><span class="tag">Price</span><div class="pr">$185.99</div></div>
+        <a class="buy" href="https://www.amazon.com/dp/B08NDDKQZZ?tag=best-winefridges-20" rel="nofollow sponsored noopener" target="_blank">Check price &rarr;</a>
+      </div>
+    </article>
+    <article class="pick">
+      <div class="rank">03<small>Quiet, dressier finish</small></div>
+      <div>
+        <h3 class="serif">Schm&eacute;ck&eacute; 12 Bottle Thermoelectric</h3>
+        <p class="who">Stainless steel and smoked glass, still thermoelectric</p>
+        <div class="rl2"><b>12 bottles</b><span>&middot;</span><b>Thermoelectric</b><span>&middot;</span><span>Digital temperature control</span><span>&middot;</span><span>Freestanding</span></div>
+        <p class="body">Same underlying cooling technology and the same noise trade-off as the two units above — no compressor, a small fan, quiet at rest — in a stainless steel cabinet with a smoked glass door. Digital temperature control is standard here too. Choose between this and the BLACK+DECKER largely on finish and where it needs to sit visually; the acoustic case for both is identical because the cooling mechanism is identical.</p>
+        <p class="quote">Same quiet mechanism, dressed for a spot where it will actually be seen.</p>
+      </div>
+      <div class="aside">
+        <span class="pimg"><img src="/images/amazon-B0BN2KH6NQ.webp" alt="Schmecke 12 Bottle Thermoelectric Wine Cooler with stainless steel and smoked glass door" width="150" height="150" loading="lazy" decoding="async"></span>
+        <div><span class="tag">Price</span><div class="pr">$219.99</div></div>
+        <a class="buy" href="https://www.amazon.com/dp/B0BN2KH6NQ?tag=best-winefridges-20" rel="nofollow sponsored noopener" target="_blank">Check price &rarr;</a>
+      </div>
+    </article>
+    <article class="pick">
+      <div class="rank">04<small>If you need compressor cooling anyway</small></div>
+      <div>
+        <h3 class="serif">Ivation 18 Bottle Compressor Wine Cooler</h3>
+        <p class="who">Louder, but holds its number regardless of the room</p>
+        <div class="rl2"><b>18 bottles</b><span>&middot;</span><b>Compressor</b><span>&middot;</span><span>41&ndash;64&deg;F range</span><span>&middot;</span><span>Freestanding, lock</span></div>
+        <p class="body">Include this one on the list not because it's quiet, but because the honest answer for a warm room or a larger collection is a compressor, and pretending otherwise just sends someone home with a thermoelectric unit that can't hold temperature where they're putting it. Eighteen bottles, a 41&ndash;64&deg;F range wide enough to actually reach cellar temperature in a warm kitchen, a lock, and a glass door. It will cycle on and off audibly, the trade-off covered above — but it will hold that range in August, which none of the thermoelectric units on this page can promise.</p>
+        <p class="quote">The honest pick for anyone whose room, not their patience for noise, is the real constraint.</p>
+      </div>
+      <div class="aside">
+        <span class="pimg"><img src="/images/amazon-B0864P1L3Y.webp" alt="Ivation 18 Bottle Compressor Wine Cooler Refrigerator with lock and glass door" width="150" height="150" loading="lazy" decoding="async"></span>
+        <div><span class="tag">Price</span><div class="pr">$279.99</div></div>
+        <a class="buy" href="https://www.amazon.com/dp/B0864P1L3Y?tag=best-winefridges-20" rel="nofollow sponsored noopener" target="_blank">Check price &rarr;</a>
+      </div>
+    </article>
+  </div>
+
+  <h2 id="warning-noises">The noises that mean something is wrong</h2>
+
+  <p>Everything above describes normal operation. A short list of sounds don't fit that description, and each one points to a specific, usually fixable, cause.</p>
+
+  <p><strong>It never stops running.</strong> A compressor that cycles off periodically is normal; one that runs continuously, hour after hour, without ever going quiet is not. The most common causes are a room that's simply too warm for the unit's range, blocked rear or side vents forcing it to work nonstop, or a door gasket that's no longer sealing — check that the door closes flush and the gasket isn't cracked or dirty before assuming a bigger fault.</p>
+
+  <p><strong>A new rattle that wasn't there before.</strong> Usually mechanical and usually simple: a bottle has shifted and is touching a shelf, wall, or the interior fan; an internal panel or shelf bracket has worked loose; or, on a thermoelectric unit, ice has built up on the cooling fins and a fan blade is now clipping it on each rotation. Repositioning bottles or clearing frost typically resolves it.</p>
+
+  <p><strong>Repeated clicking without the compressor actually starting.</strong> A single click at the start and end of a cycle is normal. Clicking that repeats every few seconds without the compressor engaging suggests the start relay is struggling — the compressor is trying to start and failing, then retrying. This is a genuine early-warning sign and worth addressing before it becomes a full failure, since a compressor that can't start at all means the unit stops cooling entirely.</p>
+
+  <p><strong>A buzz or hum that's noticeably louder than when the unit was new.</strong> This points toward the compressor mounts loosening over time, or in less common cases a refrigerant issue changing how the compressor runs. Either way, it's a change from baseline, which is the useful signal — you're not listening for "is this fridge quiet," you're listening for "is this fridge quieter or louder than it used to be."</p>
+
+  <p><strong>A grinding or squealing sound, especially from the fan.</strong> This is a bearing wearing out in a fan motor, on either cooling type. It tends to get worse, not better, and doesn't resolve itself the way a stray rattle sometimes does.</p>
+
+  <p>The common thread across all five: normal wine fridge noise is steady and repeats in a predictable pattern. Anything that's new, escalating, or arrhythmic is worth a look before it's worth living with.</p>
+
+  <h2 id="method">How we compared these — and what we cannot tell you</h2>
+
+  <p>We compared the published specifications and current prices for the units named on this page — cooling technology, stated temperature range, capacity and installation type — against the general, well-established physics of how compressor and thermoelectric cooling actually work. Where the underlying science on vibration and wine ageing is thinner than the confident claims that circulate about it, we said so rather than repeating the claim.</p>
+
+  <p>We do not run a testing lab. We have not measured decibel levels on these units ourselves, we do not own them, and this page does not contain star ratings, review counts, or paraphrased owner sentiment for any of the four products named — the retailer data we work from doesn't include verified reviews for these listings, and we won't invent what we don't have. Every claim above is anchored in published specs, price, product class, or general domain facts about refrigeration and wine storage, not in fabricated testing or invented sentiment.</p>
+
+  <p>Prices quoted here were correct at the time of writing and change frequently. Confirm the current price before buying.</p>
+
+  <h2 id="faq">Frequently asked questions</h2>
+
+  <h3>Is a truly silent wine fridge possible?</h3>
+  <p>Not entirely, no. Thermoelectric units get close — there's no compressor and no refrigerant vibration, only a small fan — but that fan still runs, usually near-continuously. "Near-silent" is accurate; "silent" isn't, for either cooling technology.</p>
+
+  <h3>Does compressor vibration actually damage wine?</h3>
+  <p>There's no solid evidence it does over the timescales most people store wine, from a few weeks to a few years. The vibration research that does exist mostly measures transport and shipping, which is far more forceful and frequent than a compressor cycling in a kitchen. The proven risks to stored wine are heat, light and temperature swings, not gentle mechanical vibration.</p>
+
+  <h3>Why has my wine fridge gotten louder recently?</h3>
+  <p>A change from its normal baseline is the signal to pay attention to. Continuous running with no cycling off usually means a warm room, blocked vents, or a failing door seal. A new rattle is often a shifted bottle or loose panel. Repeated clicking without the compressor starting can mean a struggling start relay. See <a href="#warning-noises">the noises that mean something's wrong</a> for the full list.</p>
+
+  <h3>Does where I place a wine fridge really change how loud it sounds?</h3>
+  <p>Yes, often dramatically. An unlevel cabinet, blocked airflow clearance, or direct contact with a hollow wall or cabinet panel can all turn a mild, ordinary vibration into an audible hum through resonance. Leveling the unit and giving it the manual's specified clearance is usually the single biggest, and cheapest, noise fix available.</p>
+
+  <div class="keep">
+    <span class="eyebrow">Keep reading</span>
+    <ul>
+      <li><a href="/wine-fridge-vs-kitchen-fridge-vs-wine-cellar">Wine fridge vs kitchen fridge vs wine cellar</a><span>Where wine actually belongs, and what each storage option does to a bottle over time.</span></li>
+      <li><a href="/how-to-install-an-undercounter-wine-fridge">How to install an undercounter wine fridge</a><span>The clearance and ventilation rules that also decide how loud the unit ends up sounding.</span></li>
+      <li><a href="/best-large-wine-fridges-100-bottles-and-up">The best large wine fridges (100 bottles and up)</a><span>At real collection size, fan-forced circulation matters more than bottle count — or noise.</span></li>
+    </ul>
+    <p style="margin-top:1.4rem"><a href="/">See all six of our wine fridge picks</a> or browse <a href="/guides">every guide on the site</a>.</p>
+  </div>
+
+  <p class="sig">Written by Ilane Tall. Research-based comparisons of published specifications, current prices and general domain facts about refrigeration and wine storage — we do not physically test these units and we do not publish invented scores or review sentiment.</p>
+
+</main>
+</div>
+
+<footer class="site"><div class="wrap">
+  <div class="fbrand">Best Wine Fridges</div>
+  <p>Independent, research-based comparisons of wine refrigerators, coolers and cellars.</p>
+  <p style="margin:.5rem 0 0"><a href="/about">About</a> &middot; <a href="/guides">All guides</a> &middot; <a href="/contact">Contact</a> &middot; <a href="/privacy">Privacy</a></p>
+  <p>Reader-supported: we may earn a commission when you buy through our links, at no additional cost to you. Comparisons are based on published specs and verified customer reviews; we do not physically test products. Prices change frequently — confirm the current price on Amazon before buying. As an Amazon Associate, we earn from qualifying purchases. &copy; 2026 Best Wine Fridges.</p>
+</div></footer>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Wine Fridge Noise: What Is Normal, and What Ruins Wine","description":"Compressor hum, thermoelectric fan whirr, and the vibration question that actually matters for ageing.","image":"https://best-wine-fridges.com/images/hero-wine-fridge-noise-and-vibration.webp","author":{"@type":"Person","name":"Ilane Tall"},"publisher":{"@type":"Organization","name":"Best Wine Fridges","url":"https://best-wine-fridges.com/"},"datePublished":"2026-08-31","dateModified":"2026-08-31","mainEntityOfPage":{"@type":"WebPage","@id":"https://best-wine-fridges.com/wine-fridge-noise-and-vibration"},"inLanguage":"en-US"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+ {"@type":"Question","name":"Is a truly silent wine fridge possible?","acceptedAnswer":{"@type":"Answer","text":"Not entirely. Thermoelectric units get close because there is no compressor and no refrigerant vibration, only a small fan, but that fan still runs, usually near-continuously. Near-silent is accurate; silent is not, for either cooling technology."}},
+ {"@type":"Question","name":"Does compressor vibration actually damage wine?","acceptedAnswer":{"@type":"Answer","text":"There is no solid evidence it does over the timescales most people store wine, from a few weeks to a few years. The vibration research that exists mostly measures transport and shipping, which is far more forceful and frequent than a compressor cycling in a kitchen. The proven risks to stored wine are heat, light and temperature swings, not gentle mechanical vibration."}},
+ {"@type":"Question","name":"Why has my wine fridge gotten louder recently?","acceptedAnswer":{"@type":"Answer","text":"A change from its normal baseline is the signal to pay attention to. Continuous running with no cycling off usually means a warm room, blocked vents, or a failing door seal. A new rattle is often a shifted bottle or loose panel. Repeated clicking without the compressor starting can mean a struggling start relay."}},
+ {"@type":"Question","name":"Does where I place a wine fridge really change how loud it sounds?","acceptedAnswer":{"@type":"Answer","text":"Yes, often dramatically. An unlevel cabinet, blocked airflow clearance, or direct contact with a hollow wall or cabinet panel can turn a mild, ordinary vibration into an audible hum through resonance. Leveling the unit and giving it the specified clearance is usually the single biggest, and cheapest, noise fix available."}}
+]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ItemList","name":"The Quietest Wine Fridges","itemListElement":[
+ {"@type":"ListItem","position":1,"item":{"@type":"Product","name":"Ivation Premium 8 Bottle Horizontal Thermoelectric Wine Cooler","brand":{"@type":"Brand","name":"Ivation"},"image":"https://best-wine-fridges.com/images/amazon-B0FP3VMH89.webp","offers":{"@type":"Offer","priceCurrency":"USD","price":"159.99","availability":"https://schema.org/InStock","url":"https://www.amazon.com/dp/B0FP3VMH89?tag=best-winefridges-20"}}},
+ {"@type":"ListItem","position":2,"item":{"@type":"Product","name":"BLACK+DECKER 12-Bottle Thermoelectric Wine Chiller BD60336","brand":{"@type":"Brand","name":"BLACK+DECKER"},"image":"https://best-wine-fridges.com/images/amazon-B08NDDKQZZ.webp","offers":{"@type":"Offer","priceCurrency":"USD","price":"185.99","availability":"https://schema.org/InStock","url":"https://www.amazon.com/dp/B08NDDKQZZ?tag=best-winefridges-20"}}},
+ {"@type":"ListItem","position":3,"item":{"@type":"Product","name":"Schmécké 12 Bottle Thermoelectric Wine Cooler","brand":{"@type":"Brand","name":"Schmécké"},"image":"https://best-wine-fridges.com/images/amazon-B0BN2KH6NQ.webp","offers":{"@type":"Offer","priceCurrency":"USD","price":"219.99","availability":"https://schema.org/InStock","url":"https://www.amazon.com/dp/B0BN2KH6NQ?tag=best-winefridges-20"}}},
+ {"@type":"ListItem","position":4,"item":{"@type":"Product","name":"Ivation 18 Bottle Compressor Wine Cooler Refrigerator","brand":{"@type":"Brand","name":"Ivation"},"image":"https://best-wine-fridges.com/images/amazon-B0864P1L3Y.webp","offers":{"@type":"Offer","priceCurrency":"USD","price":"279.99","availability":"https://schema.org/InStock","url":"https://www.amazon.com/dp/B0864P1L3Y?tag=best-winefridges-20"}}}
+]}
+</script>
+
+<script src="/site.js" defer></script>
+</body>
+</html>
