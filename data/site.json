@@ -216,6 +216,16 @@
       "minutes": 16,
       "date": "2026-08-31",
       "featured": true
+    },
+    {
+      "slug": "best-wine-fridges-for-red-wine",
+      "title": "The Best Wine Fridges for Red Wine",
+      "description": "Reds want 55 to 65°F, and a surprising number of cabinets simply cannot get that warm.",
+      "category": "Buying guide",
+      "hero": "hero-best-wine-fridges-for-red-wine",
+      "minutes": 17,
+      "date": "2026-09-01",
+      "featured": true
     }
   ]
 }
