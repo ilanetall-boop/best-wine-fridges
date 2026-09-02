@@ -226,6 +226,16 @@
       "minutes": 17,
       "date": "2026-09-01",
       "featured": true
+    },
+    {
+      "slug": "what-a-wine-fridge-costs-to-run",
+      "title": "What a Wine Fridge Costs to Run Per Year",
+      "description": "A cabinet that never switches off. Here is the real annual figure, and the three things that move it most.",
+      "category": "Guide",
+      "hero": "hero-what-a-wine-fridge-costs-to-run",
+      "minutes": 14,
+      "date": "2026-09-02",
+      "featured": true
     }
   ]
 }
