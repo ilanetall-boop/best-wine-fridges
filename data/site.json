@@ -236,6 +236,16 @@
       "minutes": 14,
       "date": "2026-09-02",
       "featured": true
+    },
+    {
+      "slug": "how-long-does-wine-last-in-a-wine-fridge",
+      "title": "How Long Wine Actually Lasts in a Wine Fridge",
+      "description": "Opened, unopened, and the humidity question that decides whether the corks survive the wait.",
+      "category": "Guide",
+      "hero": "hero-how-long-does-wine-last-in-a-wine-fridge",
+      "minutes": 14,
+      "date": "2026-09-13",
+      "featured": true
     }
   ]
 }

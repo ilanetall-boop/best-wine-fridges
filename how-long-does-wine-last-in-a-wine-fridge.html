@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How Long Wine Actually Lasts in a Wine Fridge</title>
+<meta name="description" content="Opened, unopened, and the humidity question that decides whether the corks survive the wait.">
+<link rel="canonical" href="https://best-wine-fridges.com/how-long-does-wine-last-in-a-wine-fridge">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Best Wine Fridges">
+<meta property="og:title" content="How Long Wine Actually Lasts in a Wine Fridge">
+<meta property="og:description" content="Opened, unopened, and the humidity question that decides whether the corks survive the wait.">
+<meta property="og:image" content="https://best-wine-fridges.com/images/hero-how-long-does-wine-last-in-a-wine-fridge.webp">
+<meta property="og:url" content="https://best-wine-fridges.com/how-long-does-wine-last-in-a-wine-fridge">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How Long Wine Actually Lasts in a Wine Fridge">
+<meta name="twitter:description" content="Opened, unopened, and the humidity question that decides whether the corks survive the wait.">
+<meta name="twitter:image" content="https://best-wine-fridges.com/images/hero-how-long-does-wine-last-in-a-wine-fridge.webp">
+<meta name="theme-color" content="#1A0710">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="alternate icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+  :root{
+    --ground:#F7F3F2; --surface:#FFFFFF; --surface-2:#F1E7E8;
+    --ink:#231016; --ink-soft:#45222C; --muted:#7A5C63; --line:#E7D9DB;
+    --wine:#9B2247; --wine-deep:#6B1230; --wine-tint:#F7E6EB;
+    --brass:#A9803A; --brass-lite:#CFA666; --brass-tint:#F5ECDC;
+    --dark:#1A0710; --dark-2:#2E0F1D; --on-dark:#F3E8EA; --on-dark-mute:#B79AA2;
+    --star:#D9A400;
+    --shadow:0 1px 2px rgba(35,16,22,.05),0 22px 48px -26px rgba(35,16,22,.32);
+    --shadow-sm:0 1px 2px rgba(35,16,22,.05),0 10px 24px -16px rgba(35,16,22,.26);
+    --radius:20px; --radius-sm:12px; --maxw:1120px;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --ground:#150609; --surface:#200C13; --surface-2:#2A1119;
+    --ink:#F3E8EA; --ink-soft:#DBC4CA; --muted:#A98D94; --line:#3B1A24;
+    --wine:#E8798F; --wine-deep:#F3A3B3; --wine-tint:#2C0F19;
+    --brass:#D9B36A; --brass-lite:#E7C98C; --brass-tint:#241C0E;
+    --surface-2b:#2A1119;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }}
+  :root[data-theme="dark"]{
+    --ground:#150609; --surface:#200C13; --surface-2:#2A1119;
+    --ink:#F3E8EA; --ink-soft:#DBC4CA; --muted:#A98D94; --line:#3B1A24;
+    --wine:#E8798F; --wine-deep:#F3A3B3; --wine-tint:#2C0F19;
+    --brass:#D9B36A; --brass-lite:#E7C98C; --brass-tint:#241C0E;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);
+    font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 26px}
+  a{color:inherit}
+  h1,h2,h3{margin:0;line-height:1.08;letter-spacing:-.01em;text-wrap:balance}
+  .serif{font-family:var(--serif)}
+  p{margin:0 0 1rem}
+  .eyebrow{font-family:var(--sans);font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
+  .tnum{font-variant-numeric:tabular-nums}
+  .stars{color:var(--star);letter-spacing:2px}
+
+  /* ---------- header ---------- */
+  header.site{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--ground) 82%,transparent);
+    backdrop-filter:saturate(1.3) blur(12px);border-bottom:1px solid var(--line)}
+  .bar{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{display:inline-flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);font-weight:700;letter-spacing:-.01em}
+  .brand .bn{font-family:var(--serif);font-size:1.16rem}
+  nav.site a{color:var(--muted);text-decoration:none;font-size:.86rem;font-weight:600;letter-spacing:.01em;margin-left:22px;transition:color .2s}
+  nav.site a:hover{color:var(--ink)}
+  @media (max-width:660px){nav.site{display:none}}
+
+  /* ---------- hero (immersive dark, cellar light) ---------- */
+  .hero{position:relative;background:radial-gradient(120% 90% at 80% -10%,var(--dark-2),var(--dark) 60%);color:var(--on-dark);overflow:hidden;isolation:isolate}
+  .caustic{position:absolute;inset:-30%;z-index:0;opacity:.5;pointer-events:none;filter:blur(30px);
+    background:
+      radial-gradient(28% 40% at 22% 30%,rgba(232,121,143,.26),transparent 60%),
+      radial-gradient(24% 34% at 74% 24%,rgba(217,179,106,.22),transparent 60%),
+      radial-gradient(30% 42% at 60% 78%,rgba(155,34,71,.30),transparent 62%);
+    animation:drift 22s ease-in-out infinite alternate}
+  .caustic.b{opacity:.35;animation-duration:30s;animation-direction:alternate-reverse;
+    background:
+      radial-gradient(26% 36% at 40% 60%,rgba(243,163,179,.22),transparent 60%),
+      radial-gradient(22% 30% at 85% 70%,rgba(217,179,106,.20),transparent 60%)}
+  @keyframes drift{0%{transform:translate3d(-2%,-1%,0) scale(1)}50%{transform:translate3d(3%,2%,0) scale(1.08)}100%{transform:translate3d(-1%,3%,0) scale(1.04)}}
+  .hero .wrap{position:relative;z-index:1;padding:74px 26px 88px}
+  .hero .eyebrow{color:var(--brass-lite)}
+  .hero h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.5rem,1.4rem+4.6vw,4.7rem);letter-spacing:-.02em;max-width:15ch;margin:.5rem 0 0}
+  .hero h1 em{font-style:italic;color:var(--brass-lite)}
+  .hero .lede{font-size:1.24rem;line-height:1.55;color:var(--on-dark-mute);max-width:52ch;margin-top:1.3rem}
+  .hero .meta{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:26px;font-size:.86rem;color:var(--on-dark-mute)}
+  .hero .meta b{color:var(--on-dark)}
+  .rule{height:1px;background:linear-gradient(90deg,var(--brass),transparent);border:0;margin:26px 0 0;max-width:220px}
+
+  /* ---------- #1 feature (the centerpiece) ---------- */
+  .feature{position:relative;z-index:2;margin:-56px 0 0}
+  .feature .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+    display:grid;grid-template-columns:1.1fr 1fr;overflow:hidden}
+  .feature .left{padding:38px}
+  .feature .kick{display:inline-flex;align-items:center;gap:9px;color:var(--brass-text);font-weight:700;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase}
+  .feature .kick::before{content:"";width:26px;height:1px;background:var(--brass)}
+  .feature h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.8rem,1.2rem+2vw,2.7rem);margin:.5rem 0 .2rem}
+  .feature .verdict{color:var(--ink-soft);font-size:1.06rem;margin:.4rem 0 1rem;max-width:44ch}
+  .feature .rl{display:flex;align-items:center;gap:10px;font-size:.92rem;color:var(--muted);margin-bottom:1.2rem;flex-wrap:wrap}
+  .feature .rl b{color:var(--ink)}
+  .btn{display:inline-flex;align-items:center;gap:9px;background:var(--wine);color:#fff;font-weight:700;
+    padding:14px 26px;border-radius:12px;text-decoration:none;box-shadow:var(--shadow-sm);transition:transform .15s,background .2s}
+  .btn:hover{background:var(--wine-deep);transform:translateY(-1px)}
+  .btn .arw{transition:transform .2s}.btn:hover .arw{transform:translateX(3px)}
+  .feature .right{background:linear-gradient(160deg,var(--dark-2),var(--dark));color:var(--on-dark);padding:38px;display:flex;flex-direction:column;justify-content:center;gap:6px;position:relative}
+  .feature .right .lab{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--on-dark-mute)}
+  .feature .bigprice{font-family:var(--serif);font-size:clamp(3rem,2rem+4vw,4.4rem);font-weight:600;line-height:1;color:var(--brass-lite)}
+  .feature .bigprice sup{font-size:.4em;top:-1.2em;color:var(--on-dark)}
+  .feature .right .note{color:var(--on-dark-mute);font-size:.92rem;margin-top:6px;max-width:30ch}
+  .feature .right .mono{margin-top:16px;font-family:var(--serif);font-size:1.05rem;color:var(--on-dark)}
+  @media (max-width:820px){.feature .card{grid-template-columns:1fr}.feature .right{order:-1}}
+
+  /* ---------- generic section ---------- */
+  section{padding:44px 0}
+  .kicker{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+  .kicker .eyebrow{color:var(--wine-deep)}
+  .kicker::after{content:"";flex:1;height:1px;background:var(--line)}
+  .h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.7rem,1.2rem+1.7vw,2.5rem);letter-spacing:-.01em}
+  .sub{color:var(--muted);max-width:62ch;margin:.6rem 0 0}
+
+  .notes{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-top:24px}
+  .notes .n{background:var(--surface);padding:24px}
+  .notes .num{font-family:var(--serif);font-size:1.5rem;color:var(--brass-text);line-height:1}
+  .notes h3{font-size:1.02rem;font-weight:750;margin:.5rem 0 .35rem}
+  .notes p{font-size:.9rem;color:var(--muted);margin:0}
+  @media (max-width:820px){.notes{grid-template-columns:1fr 1fr}}
+  @media (max-width:520px){.notes{grid-template-columns:1fr}}
+
+  /* comparison */
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);background:var(--surface);margin-top:22px}
+  table{border-collapse:collapse;width:100%;min-width:740px;font-size:.94rem}
+  thead th{background:var(--surface-2);text-align:left;padding:16px;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line)}
+  td{padding:15px 16px;border-bottom:1px solid var(--line);vertical-align:middle}
+  tbody tr:last-child td{border-bottom:0}
+  tbody tr:hover{background:var(--surface-2)}
+  td.name{font-family:var(--serif);font-weight:600;font-size:1.05rem}
+  .win td{background:var(--brass-tint)}
+  .win td.name{color:var(--brass-text)}
+  .win td:first-child{box-shadow:inset 3px 0 0 var(--brass)}
+  .price{font-weight:800;font-variant-numeric:tabular-nums}
+  .rev{color:var(--muted);font-size:.82rem}
+  .tget{display:inline-block;background:var(--ink);color:var(--surface);font-weight:700;font-size:.8rem;padding:8px 14px;border-radius:9px;text-decoration:none;white-space:nowrap;transition:background .2s}
+  .tget:hover{background:var(--wine-deep);color:#fff}
+
+  /* picks (editorial cards) */
+  .picks{display:flex;flex-direction:column;gap:26px;margin-top:26px}
+  .pick{display:grid;grid-template-columns:96px 1fr auto;gap:26px;align-items:start;
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:28px}
+  .pick .rank{font-family:var(--serif);font-size:2.6rem;color:var(--brass-text);line-height:.9;font-weight:600}
+  .pick .rank small{display:block;font-family:var(--sans);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-top:8px}
+  .pick h3{font-family:var(--serif);font-weight:600;font-size:1.44rem}
+  .pick .who{color:var(--wine-deep);font-weight:700;font-size:.9rem;margin:.25rem 0 .5rem}
+  .pick .rl2{display:flex;align-items:center;gap:8px;font-size:.86rem;color:var(--muted);margin-bottom:.7rem;flex-wrap:wrap}
+  .pick .rl2 b{color:var(--ink)}
+  .pick p.body{margin:.2rem 0 0;color:var(--ink-soft)}
+  .quote{border-left:2px solid var(--brass);padding-left:14px;margin:.9rem 0 0;font-family:var(--serif);font-style:italic;color:var(--ink);font-size:1.02rem}
+  .aside{display:flex;flex-direction:column;align-items:flex-end;gap:12px;text-align:right;min-width:150px}
+  .aside .pr{font-family:var(--serif);font-size:2rem;font-weight:600;font-variant-numeric:tabular-nums;line-height:1}
+  .aside .tag{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .buy{display:inline-flex;align-items:center;gap:8px;background:var(--wine);color:#fff;font-weight:700;padding:11px 20px;border-radius:10px;text-decoration:none;transition:background .2s,transform .15s;font-size:.92rem}
+  .buy:hover{background:var(--wine-deep);transform:translateY(-1px)}
+  @media (max-width:820px){.pick{grid-template-columns:64px 1fr}.aside{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center;text-align:left;border-top:1px solid var(--line);padding-top:16px}}
+
+  /* method / faq */
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:22px}
+  @media (max-width:760px){.cols{grid-template-columns:1fr}}
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow-sm)}
+  .panel .eyebrow{color:var(--wine-deep)}
+  .panel h3{font-family:var(--serif);font-weight:600;font-size:1.3rem;margin:.5rem 0 .5rem}
+  .panel p{color:var(--muted);margin:0}
+  .faq details{border-top:1px solid var(--line);padding:16px 0}
+  .faq details:first-of-type{border-top:0}
+  .faq summary{cursor:pointer;font-family:var(--serif);font-size:1.12rem;list-style:none;display:flex;justify-content:space-between;gap:14px;color:var(--ink)}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";color:var(--brass-text);font-family:var(--sans);font-weight:700}
+  .faq details[open] summary::after{content:"–"}
+  .faq p{margin:.8rem 0 0;color:var(--muted)}
+
+  footer.site{margin-top:20px;background:var(--dark);color:var(--on-dark-mute)}
+  footer .wrap{padding:40px 26px}
+  footer .fbrand{font-family:var(--serif);color:var(--on-dark);font-size:1.2rem}
+  footer p{font-size:.84rem;margin:.6rem 0 0;max-width:80ch}
+  footer a{color:var(--brass-lite)}
+  /* imagery */
+  .hero .wrap{display:grid;grid-template-columns:1.12fr .88fr;gap:48px;align-items:center}
+  .hero .himg{border-radius:20px;border:1px solid rgba(207,166,102,.4);box-shadow:0 30px 60px -30px rgba(0,0,0,.55);width:100%;height:auto;display:block}
+  @media (max-width:860px){.hero .wrap{grid-template-columns:1fr;gap:30px}}
+  .fpimg{background:#fff;border-radius:14px;padding:14px;box-shadow:0 12px 28px -14px rgba(0,0,0,.5);width:min(230px,70%);margin-bottom:16px}
+  .fpimg img{width:100%;height:auto;display:block}
+  .aside .pimg{width:150px;height:150px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px;display:flex;align-items:center;justify-content:center}
+  .aside .pimg img{max-width:100%;max-height:100%;display:block}
+  @media (max-width:820px){.aside .pimg{width:96px;height:96px;padding:6px}}
+  td.name{display:flex;align-items:center;gap:12px}
+  .thumb{width:46px;height:46px;flex:0 0 auto;background:#fff;border:1px solid var(--line);border-radius:9px;padding:4px}
+  .thumb img{width:100%;height:100%;object-fit:contain;display:block}
+  :focus-visible{outline:2px solid var(--wine);outline-offset:3px;border-radius:5px}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}.btn:hover,.buy:hover{transform:none}}
+</style>
+<style>
+  .artmain{max-width:68ch;margin:0 auto;padding:36px 0 8px}
+  .artmain h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.5rem,1.1rem+1.4vw,2.15rem);letter-spacing:-.01em;margin:2.5rem 0 .85rem}
+  .artmain h3{font-family:var(--serif);font-weight:600;font-size:1.22rem;margin:1.9rem 0 .5rem}
+  .artmain p{color:var(--ink-soft);font-size:1.06rem;line-height:1.68}
+  .artmain ul,.artmain ol{color:var(--ink-soft);font-size:1.06rem;line-height:1.68;padding-left:1.15rem;margin:0 0 1.1rem}
+  .artmain li{margin:.45rem 0}
+  .artmain p a,.artmain li a{color:var(--wine-deep);font-weight:600;text-underline-offset:3px}
+  .artmain p a:hover,.artmain li a:hover{color:var(--wine)}
+  .byline{color:var(--muted);font-size:.9rem;margin:0 0 1.2rem}
+  .disclosure{font-size:.86rem;color:var(--muted);border-left:2px solid var(--brass);padding:2px 0 2px 14px;margin:0 0 1.8rem}
+  .tldr{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-sm);box-shadow:var(--shadow-sm);padding:24px 26px;margin:0 0 1.6rem}
+  .tldr .eyebrow{color:var(--wine-deep)}
+  .tldr p{margin:.7rem 0 0;color:var(--ink)}
+  .tldr p:first-of-type{margin-top:.6rem}
+  .callout{background:var(--wine-tint);border-radius:var(--radius-sm);padding:20px 24px;margin:1.6rem 0}
+  .callout p{margin:0;color:var(--ink)}
+  .callout p+p{margin-top:.7rem}
+  .keep{border-top:1px solid var(--line);margin-top:2.6rem;padding-top:1.6rem}
+  .keep .eyebrow{color:var(--wine-deep)}
+  .keep ul{list-style:none;padding:0;margin:1rem 0 0}
+  .keep li{margin:.85rem 0}
+  .keep li a{font-family:var(--serif);font-size:1.1rem;font-weight:600;color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line)}
+  .keep li a:hover{border-bottom-color:var(--wine)}
+  .keep li span{display:block;color:var(--muted);font-size:.9rem;margin-top:.2rem}
+  .zonebar{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius-sm);overflow:hidden;margin:1.6rem 0}
+  .zonebar div{background:var(--surface);padding:20px 22px}
+  .zonebar h4{margin:0 0 .4rem;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--wine-deep)}
+  .zonebar p{margin:0;font-size:.95rem;color:var(--ink-soft)}
+  @media (max-width:640px){.zonebar{grid-template-columns:1fr}}
+  .artmain .sig{color:var(--muted);font-size:.92rem;font-style:italic;border-top:1px solid var(--line);padding-top:1.2rem;margin-top:2.2rem}
+</style>
+<style id="a11y">:root{--brass-text:#7A5E28;--star:#B07E00}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--brass-text:#E7C98C;--star:#E8B84B}}:root[data-theme="dark"]{--brass-text:#E7C98C;--star:#E8B84B}nav.site a{color:var(--ink-soft)}.stars{color:var(--star)}thead th{color:var(--ink-soft)}.rev{color:var(--ink-soft)}.kick{color:var(--brass-text)}.win td.name{color:var(--brass-text)}a.btn,a.buy,.btn,.buy{background:#8E1F40 !important;color:#fff !important;text-decoration:none !important}a.btn:hover,a.buy:hover,.btn:hover,.buy:hover{background:#6B1230 !important}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) a.btn,:root:not([data-theme="light"]) a.buy,:root:not([data-theme="light"]) .btn,:root:not([data-theme="light"]) .buy{background:#F0A3B3 !important;color:#2B0A12 !important}:root:not([data-theme="light"]) .btn:hover,:root:not([data-theme="light"]) .buy:hover{background:#F7C0CB}}:root[data-theme="dark"] a.btn,:root[data-theme="dark"] a.buy,:root[data-theme="dark"] .btn,:root[data-theme="dark"] .buy{background:#F0A3B3 !important;color:#2B0A12 !important}</style>
+</head>
+<body>
+<header class="site"><div class="wrap bar">
+  <a class="brand" href="/" aria-label="Best Wine Fridges">
+    <svg class="logomark" width="36" height="36" viewBox="0 0 40 40" aria-hidden="true">
+      <defs><radialGradient id="lm" cx="34%" cy="26%" r="86%"><stop offset="0" stop-color="#A32449"/><stop offset=".7" stop-color="#6B1230"/><stop offset="1" stop-color="#2B0D1A"/></radialGradient></defs>
+      <circle cx="20" cy="20" r="19" fill="url(#lm)"/>
+      <circle cx="20" cy="20" r="18.4" fill="none" stroke="#CFA666" stroke-width="1.1" stroke-opacity=".92"/>
+      <circle cx="20" cy="20" r="15.3" fill="none" stroke="#F3E8EA" stroke-width=".6" stroke-opacity=".22"/>
+      <path d="M13.6 10.4h12.8l-1.1 6.2a5.4 5.4 0 0 1-10.6 0Z" fill="#F7F2F3"/>
+      <path d="M20 21.9v6.4" fill="none" stroke="#F7F2F3" stroke-width="1.7" stroke-linecap="round"/>
+      <path d="M15.6 29.3h8.8" fill="none" stroke="#CFA666" stroke-width="1.7" stroke-linecap="round"/>
+      <path d="M14.9 14.6h10.2" fill="none" stroke="#A32449" stroke-width="1.3" stroke-opacity=".55"/>
+    </svg>
+    <span class="bn">Best&thinsp;Wine&thinsp;Fridges</span>
+  </a>
+  <nav class="site" aria-label="Primary">
+    <a href="/#feature">Top pick</a><a href="/#compare">Compare</a><a href="/#picks">The six</a><a href="/#how">Method</a><a href="/#faq">FAQ</a>
+  <a href="/guides">All guides</a></nav>
+</div></header>
+
+<a id="top"></a>
+<div class="hero">
+  <div class="caustic" aria-hidden="true"></div><div class="caustic b" aria-hidden="true"></div>
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Guide &middot; Storage &amp; Shelf Life</span>
+      <h1 class="serif">How long wine <em>actually</em> lasts in a wine fridge</h1>
+      <p class="lede">A cabinet buys an unopened bottle months of protection from heat and light. It buys an opened one a few extra days, at best &mdash; cold slows oxidation, it doesn't stop it. Here's the honest timeline for both, and the two variables that decide how well either one holds.</p>
+      <div class="meta"><span>By <b>Ilane Tall</b></span><span>Updated <b>September 13, 2026</b></span><span><b>Research-based</b> &mdash; no testing lab, no invented scores</span></div>
+      <hr class="rule">
+    </div>
+    <img src="/images/hero-how-long-does-wine-last-in-a-wine-fridge.webp" width="1600" height="900" loading="eager" fetchpriority="high" decoding="async" alt="An open bottle of red wine resealed with a stopper standing next to unopened bottles lying on their sides inside a wine refrigerator" class="himg">
+  </div>
+</div>
+
+<div class="wrap">
+<main class="artmain">
+
+  <p class="byline">By Ilane Tall &middot; Updated September 13, 2026 &middot; Research-based.</p>
+  <p class="disclosure">Reader-supported: we may earn a commission when you buy through the links on this page, at no additional cost to you. It never changes which product we recommend. Prices quoted below were correct at the time of writing and move often.</p>
+
+  <div class="tldr">
+    <span class="eyebrow">The short version</span>
+    <p>An unopened bottle in a wine fridge held near 55&deg;F holds its condition for months to years, depending on the wine &mdash; the fridge is protecting it from heat and light, not performing some special trick a cool, dark cupboard couldn't approximate. See <a href="#unopened">what a cabinet actually buys you</a>.</p>
+    <p>Once the cork comes out, the clock changes entirely. Sparkling wine has roughly a day or two, delicate whites and reds a handful of days, and no wine fridge changes that math &mdash; cold only slows the chemistry, it doesn't stop it. The <a href="#opened">tactics for stretching it out</a> below buy real days, not weeks.</p>
+    <p>The single biggest lever either way is <a href="#stability">holding one steady number</a> rather than chasing the lowest one. A cabinet that drifts five degrees with every door opening does more damage than one that sits two degrees off its setpoint and stays there.</p>
+  </div>
+
+  <h2 id="two-questions">Why "how long does wine last" is actually two questions</h2>
+
+  <p>"How long does wine last in a wine fridge?" is really two questions wearing one sentence. An unopened bottle is fighting slow chemistry &mdash; heat, light, and the occasional temperature swing, acting over months and years. An opened bottle on the same shelf is fighting fast chemistry &mdash; oxygen that got in when the cork came out, acting over days. This guide answers both, then covers the two variables that decide how well either clock behaves &mdash; humidity and temperature stability &mdash; before landing on which cabinet fits which situation.</p>
+
+  <h2 id="unopened">Unopened bottles: what a cabinet buys you over a kitchen cupboard</h2>
+
+  <p>Most wine sold in the US &mdash; the bottle picked up at the grocery store on a Tuesday, not a case laid down for a decade &mdash; is made to be opened within a year or two, and it does not meaningfully improve by sitting longer. The honest answer to "how long will it last unopened" is: about as long as it takes you to drink it, provided nothing actively damages it. A wine fridge's job is removing the things that do the damage, not adding years the wine was never built to hold.</p>
+
+  <p>Heat is the first of those things. Wine held above roughly 70&deg;F for extended periods pushes its chemical reactions forward, flattening fruit character within months rather than years &mdash; the wine equivalent of leaving milk on the counter. A cupboard next to the oven or against a hot exterior wall routinely sees that kind of heat in summer. A wine fridge held near 55&deg;F removes the variable entirely.</p>
+
+  <p>Light is the second, and it's worse for wine in clear glass &mdash; most whites, ros&eacute;s, and sparkling &mdash; than for reds in darker bottles. Ultraviolet light breaks down aroma compounds, producing the flat, skunky character wine professionals call "lightstrike." A cupboard is dark by default, one genuine advantage over a rack on display near a window; a wine fridge's tinted, UV-resistant door extends that protection to a bottle you actually want to look at.</p>
+
+  <p>What a cupboard can't offer is a stable number in between those two failure modes. A closet tracks the room's temperature, which tracks the season &mdash; a real swing between winter and August in most US homes. Our full <a href="/wine-fridge-vs-kitchen-fridge-vs-wine-cellar">comparison of wine fridge, kitchen fridge, and wine cellar</a> works through what each option does to a bottle over a week, a season, and five years.</p>
+
+  <div class="zonebar">
+    <div>
+      <h4>Kitchen cupboard</h4>
+      <p>Dark, which genuinely helps. Tracks the room's temperature, which does not &mdash; swinging with the season and with every time the oven runs nearby.</p>
+    </div>
+    <div>
+      <h4>Wine fridge</h4>
+      <p>Holds close to 55&deg;F year-round regardless of the kitchen, and its door blocks the UV light a display shelf or a sunny counter does not.</p>
+    </div>
+  </div>
+
+  <p>The one category where the fridge's benefit compounds instead of just protecting is genuinely age-worthy wine &mdash; structured reds bought to hold for five, ten, or more years. That's a more specialized conversation than the everyday bottle this section is about, and it usually involves a larger setup than a countertop unit; more in <a href="#outgrown">when a fridge stops being enough</a>.</p>
+
+  <h2 id="opened">Opened bottles: days, not weeks, and how to stretch them</h2>
+
+  <p>Pull the cork and the chemistry changes entirely. Oxygen makes contact with the wine's surface and begins reacting with it immediately &mdash; the same reaction that browns a sliced apple, just slower and more pleasant-smelling for the first day. Refrigeration slows that reaction and slows the bacteria that spoil wine outright, which is why an opened bottle genuinely lasts longer cold than left on the counter. It does not stop the reaction. Cold buys days, not weeks, no matter how good the cabinet is.</p>
+
+  <p>Rough, widely cited windows, once resealed and kept cold:</p>
+
+  <ul>
+    <li><strong>Sparkling wine:</strong> 1&ndash;3 days. A dedicated sparkling stopper that reseals the pressure helps more here than anywhere else.</li>
+    <li><strong>Light and full-bodied whites, ros&eacute;:</strong> 3&ndash;5 days.</li>
+    <li><strong>Light and full-bodied reds:</strong> 3&ndash;5 days, occasionally a week with a good reseal.</li>
+    <li><strong>Fortified wines &mdash; port, sherry, vermouth:</strong> 1&ndash;4 weeks, sometimes longer, since the added alcohol and sugar act as natural preservatives.</li>
+  </ul>
+
+  <div class="callout">
+    <p><strong>Trust your senses over the calendar.</strong> A wine past its window smells flat or vinegary rather than fruity, and tastes dull rather than obviously "off." Those cues beat counting days, since the ranges above shift with how much air got in and how well the bottle was resealed.</p>
+  </div>
+
+  <p>How to actually stretch an opened bottle:</p>
+
+  <ul>
+    <li><strong>Reseal it immediately</strong> &mdash; a rubber wine stopper seals more reliably than a slightly swollen, wine-stained cork pushed back in.</li>
+    <li><strong>Pull some of the air back out</strong> with a vacuum pump stopper, or go further with an inert-gas preservation spray, which blankets the surface so new oxygen can't reach it.</li>
+    <li><strong>Store it upright, not on its side</strong> &mdash; the reverse of the unopened rule below, because standing it up minimizes the wine's exposed surface once the seal is already broken.</li>
+    <li><strong>Keep it cold regardless of colour.</strong> A red just needs ten minutes on the counter to warm into its window, a smaller cost than oxidizing overnight.</li>
+    <li><strong>Keep it somewhere the door doesn't open constantly.</strong> <a href="/how-to-organize-a-wine-fridge">How to organize a wine fridge</a> covers where to put the bottle you're currently drinking through.</li>
+  </ul>
+
+  <h2 id="humidity">Humidity, corks, and why unopened bottles lie down</h2>
+
+  <p>An unopened, cork-sealed bottle is stored on its side for one mechanical reason: keeping the cork in contact with the wine keeps it swollen and sealed against the glass, using moisture from the wine itself rather than depending on the surrounding air. Stand it upright for months and the cork only has ambient humidity to keep it from drying out &mdash; a slow process, but a real one over a long enough timeline.</p>
+
+  <p>That's also why humidity gets mentioned alongside storage: cork wants roughly 50&ndash;70% relative humidity over the months and years it might sit in a cabinet, and a frost-free kitchen refrigerator &mdash; which actively pulls moisture out of its air as it defrosts &mdash; is a genuinely bad long-term environment for a corked bottle. A dedicated wine fridge, without that cycle, is friendlier to a cork by design. Full mechanism, including when a screwcap makes it irrelevant, in our <a href="/wine-fridge-humidity-guide">wine fridge humidity guide</a>.</p>
+
+  <p>None of that applies once the bottle is open. An opened bottle has already lost its airtight seal, so there's no cork-drying problem left to protect against &mdash; which is exactly why the advice flips to standing it upright, as covered above. Humidity and the "lie it down" rule are strictly an unopened-bottle concern.</p>
+
+  <h2 id="stability">Temperature stability beats temperature perfection</h2>
+
+  <p>If this guide has one idea worth keeping, it's this: a wine fridge holding a steady 58&deg;F all year does more for a bottle than one swinging between 50&deg;F and 65&deg;F while averaging exactly 55&deg;F. Wine expands slightly as it warms and contracts as it cools, and repeated swings push tiny amounts of wine and air past the cork with every cycle &mdash; a slow pump that lets in more oxygen over a year than a bottle sitting a couple of degrees off the "ideal" number ever would.</p>
+
+  <p>That's the real argument against a kitchen cupboard, more than its average temperature: it cycles warm and cool daily in summer and seasonally year-round, and every cycle is a small pump. A compressor-cooled wine fridge resists that, cycling on and off to hold a setpoint within a degree or two, not the ten-plus-degree swings a room can see between a cold night and a hot afternoon.</p>
+
+  <p>Vibration is a smaller, related variable, mostly relevant to age-worthy reds resting on sediment over years. <a href="/wine-fridge-noise-and-vibration">Our guide to wine fridge noise and vibration</a> covers what's normal. Holding stability also costs something &mdash; a compressor running continuously draws power around the clock. <a href="/what-a-wine-fridge-costs-to-run">What a wine fridge costs to run per year</a> breaks down the number.</p>
+
+  <h2 id="picks">The picks: matched to how long you're actually keeping it</h2>
+
+  <p>The right cabinet depends less on features than on which of the two clocks above you're mostly managing: fast turnover, real unopened stock, or a permanent installation as the collection grows. These three cover that range.</p>
+
+  <div class="picks">
+    <article class="pick">
+      <div class="rank">01<small>Fast turnover</small></div>
+      <div>
+        <h3 class="serif">Cuisinart CWC-800CEN 8-Bottle Private Reserve Wine Cellar</h3>
+        <p class="who">Best if you mostly manage opened bottles, not a long unopened stockpile</p>
+        <div class="rl2"><b>8 Bottle</b></div>
+        <p class="body">Eight bottles isn't a cellar; it's a dedicated cold, dark spot for whatever you're drinking through plus a small reserve &mdash; the right scale if your real problem is a half-finished bottle going flat in the kitchen fridge door, not a collection aging for years. At $229.95 it's priced like the appliance it is. If this size is the ceiling of what you need, our <a href="/best-wine-fridges-under-300">guide to wine fridges under $300</a> covers where else the budget end holds up.</p>
+        <p class="quote">The honest answer for most households: you don't need more than this if you finish what you open within the week.</p>
+      </div>
+      <div class="aside">
+        <span class="pimg"><img src="/images/amazon-B08F2JR83Y.webp" alt="Cuisinart CWC-800CEN 8-Bottle Private Reserve Wine Cellar" width="150" height="150" loading="lazy" decoding="async"></span>
+        <div><span class="tag">Price</span><div class="pr">$229.95</div></div>
+        <a class="buy" href="https://www.amazon.com/dp/B08F2JR83Y?tag=best-winefridges-20" rel="nofollow sponsored noopener" target="_blank">Check price &rarr;</a>
+      </div>
+    </article>
+    <article class="pick">
+      <div class="rank">02<small>Real unopened storage</small></div>
+      <div>
+        <h3 class="serif">Hamilton Beach HBWF4303 43-Bottle Wine Cooler Fridge Cellar</h3>
+        <p class="who">Best for building real unopened storage</p>
+        <div class="rl2"><b>43-bottle</b><span>&middot;</span><span>Curved wire shelves</span><span>&middot;</span><span>Digital control</span><span>&middot;</span><span>Mirror finish</span></div>
+        <p class="body">Forty-three bottles, with curved wire shelving and digital control, is enough room to hold a rotating stock at a stable temperature for months rather than living bottle-to-bottle off the store shelf &mdash; the scale where the unopened-storage case earlier in this guide actually pays off. Stocking mostly reds for that stretch? <a href="/best-wine-fridges-for-red-wine">Our picks for red wine specifically</a> covers what else matters at this size. At $248.00 it's close in price to the smaller Cuisinart above while holding more than five times the bottles.</p>
+        <p class="quote">The point where a wine fridge stops being a nice-to-have and starts doing real storage work.</p>
+      </div>
+      <div class="aside">
+        <span class="pimg"><img src="/images/amazon-B0CQ74255X.webp" alt="Hamilton Beach HBWF4303 43-Bottle Wine Cooler Fridge Cellar" width="150" height="150" loading="lazy" decoding="async"></span>
+        <div><span class="tag">Price</span><div class="pr">$248.00</div></div>
+        <a class="buy" href="https://www.amazon.com/dp/B0CQ74255X?tag=best-winefridges-20" rel="nofollow sponsored noopener" target="_blank">Check price &rarr;</a>
+      </div>
+    </article>
+    <article class="pick">
+      <div class="rank">03<small>Built to stay</small></div>
+      <div>
+        <h3 class="serif">Techomey 15 Inch Wine Fridge Under Counter 31 Bottle</h3>
+        <p class="who">Best if you're ready to build it into the cabinetry</p>
+        <div class="rl2"><b>Upgraded 31 Bottles</b><span>&middot;</span><span>Under counter</span><span>&middot;</span><span>Digital thermostat</span><span>&middot;</span><span>Glass door</span></div>
+        <p class="body">Under-counter installation with a digital thermostat and glass door in the standard 15-inch opening, at $259.99 &mdash; the point where a household commits real cabinetry space to wine storage rather than a countertop appliance you might move later. Thirty-one bottles is a comfortable middle ground: enough for real unopened stock, without yet being the scale where a cellar is worth pricing out. If this is the direction you're heading, <a href="/how-to-organize-a-wine-fridge">how to organize a wine fridge</a> is worth reading before you fill it.</p>
+        <p class="quote">The permanent option, for the household that already knows this isn't a phase.</p>
+      </div>
+      <div class="aside">
+        <span class="pimg"><img src="/images/amazon-B0BPD9378R.webp" alt="Techomey 15 Inch Wine Fridge Under Counter 31 Bottle" width="150" height="150" loading="lazy" decoding="async"></span>
+        <div><span class="tag">Price</span><div class="pr">$259.99</div></div>
+        <a class="buy" href="https://www.amazon.com/dp/B0BPD9378R?tag=best-winefridges-20" rel="nofollow sponsored noopener" target="_blank">Check price &rarr;</a>
+      </div>
+    </article>
+  </div>
+
+  <h2 id="outgrown">When a collection has outgrown a fridge and needs a cellar</h2>
+
+  <p>There's a point past which a wine fridge, however good, is the wrong tool: you're buying faster than you're drinking, the racks are full more often than not, and you've started stacking bottles somewhere they don't belong. That's a capacity problem first, and the first real answer isn't a room addition &mdash; it's a larger fridge. Our <a href="/best-large-wine-fridges-100-bottles-and-up">guide to large wine fridges, 100 bottles and up</a> covers that next rung, still a compressor appliance, just built for volume.</p>
+
+  <p>A true cellar is a different category of investment &mdash; not a bigger appliance, but a built environment: an insulated room with its own dedicated cooling and, often, active humidification, sized in cubic feet rather than bottle count. That jump makes sense once you're managing genuinely different wines on genuinely different aging timelines &mdash; young reds held for a decade alongside whites meant to be gone by spring &mdash; and a fridge's one or two zones can't serve all of it well. It's also a fixed, built-in commitment in a way a fridge, which you can resell or relocate, is not. If you're near that decision, start by counting what you actually own and buy per year, not what you imagine owning eventually.</p>
+
+  <h2 id="who">Who should worry about any of this, and who shouldn't</h2>
+
+  <p>If you buy a bottle or two a week and finish what you open, the unopened-storage chemistry here barely applies to you &mdash; buy a cabinet sized to what you'll drink in a month, keep it near 55&deg;F, and focus on the opened-bottle tactics instead, since that's the clock you're actually racing. If you're holding bottles for months or years, humidity and temperature stability stop being background details and become the entire point &mdash; read the <a href="/wine-fridge-humidity-guide">humidity guide</a> in full and buy the largest cabinet your space and budget allow. And if you're already past a hundred bottles and still growing, stop shopping for fridges and start pricing a cellar.</p>
+
+  <h2 id="method">How we researched this</h2>
+
+  <p>This guide combines the published specifications and current prices for the three units above with general, well-established knowledge of wine chemistry &mdash; how oxidation, heat, light, and cork behavior act on wine over time, the same material covered in our dedicated <a href="/wine-fridge-humidity-guide">humidity guide</a>. Where a number is genuinely uncertain, such as an exact day count for an opened bottle, we gave the commonly cited range rather than a false precision.</p>
+
+  <p>We do not run a testing lab. We have not opened and timed the decline of these specific bottles ourselves, and we don't publish invented scores, star ratings, or review counts &mdash; the retailer API doesn't return that data for this category, and we don't fabricate what we can't source. What we can do is read the specifications carefully, track the prices, and explain the chemistry honestly.</p>
+
+  <h2 id="faq">Frequently asked questions</h2>
+
+  <h3>How long does an unopened bottle of wine actually last in a wine fridge?</h3>
+  <p>For most everyday wine &mdash; meant to be drunk within a year or two of purchase &mdash; a wine fridge held near 55&deg;F mainly protects the bottle from the heat and light that would otherwise flatten it faster, rather than adding years the wine wasn't built to hold. Age-worthy wine bought to hold for five or more years is a longer, more specialized conversation.</p>
+
+  <h3>Does refrigeration really extend how long an opened bottle lasts?</h3>
+  <p>Yes, but modestly. Cold slows the oxidation reaction that starts the moment a cork comes out, and slows spoilage bacteria, which is why a resealed, refrigerated bottle outlasts one left on the counter. It doesn't stop the reaction &mdash; most opened wine is still best within three to five days, sparkling within one to three, and fortified wines like port considerably longer.</p>
+
+  <h3>Does a vacuum stopper actually make a difference?</h3>
+  <p>Yes, though it buys days rather than weeks. Pulling oxygen out of the bottle slows the same reaction refrigeration slows, and the two combine for a noticeably longer window than either alone. An inert-gas preservation spray goes a step further by blanketing the wine's surface so new oxygen can't reach it.</p>
+
+  <h3>At what point should I stop buying a bigger wine fridge and start planning a cellar?</h3>
+  <p>Once you're consistently buying faster than you're drinking, running out of room more often than not, and managing wines on genuinely different aging timelines &mdash; typically somewhere past the 100-bottle mark. Below that, a larger fridge is almost always the simpler and cheaper answer.</p>
+
+  <div class="keep">
+    <span class="eyebrow">Keep reading</span>
+    <ul>
+      <li><a href="/wine-fridge-vs-kitchen-fridge-vs-wine-cellar">Wine fridge vs kitchen fridge vs wine cellar</a><span>Three storage options, three different failure modes, over a week, a season and five years.</span></li>
+      <li><a href="/wine-fridge-humidity-guide">Wine fridge humidity: what matters, and what is marketing</a><span>The full mechanism behind cork drying, and when a screwcap makes it irrelevant.</span></li>
+      <li><a href="/best-large-wine-fridges-100-bottles-and-up">The best large wine fridges (100 bottles and up)</a><span>The next rung before a real cellar becomes worth pricing out.</span></li>
+      <li><a href="/wine-fridge-noise-and-vibration">Wine fridge noise: what is normal, and what ruins wine</a><span>Compressor hum, and the vibration question that matters for long-term aging.</span></li>
+    </ul>
+    <p style="margin-top:1.4rem"><a href="/">See all six of our wine fridge picks</a> or browse <a href="/guides">every guide on the site</a>.</p>
+  </div>
+
+  <p class="sig">Written by Ilane Tall. Research-based comparisons of published specifications, current prices, and general wine chemistry &mdash; we do not physically test these units and we do not publish invented scores.</p>
+
+</main>
+</div>
+
+<footer class="site"><div class="wrap">
+  <div class="fbrand">Best Wine Fridges</div>
+  <p>Independent, research-based comparisons of wine refrigerators, coolers and cellars.</p>
+  <p style="margin:.5rem 0 0"><a href="/about">About</a> &middot; <a href="/guides">All guides</a> &middot; <a href="/contact">Contact</a> &middot; <a href="/privacy">Privacy</a></p>
+  <p>Reader-supported: we may earn a commission when you buy through our links, at no additional cost to you. Comparisons are based on published specs and verified customer reviews; we do not physically test products. Prices change frequently &mdash; confirm the current price on Amazon before buying. As an Amazon Associate, we earn from qualifying purchases. &copy; 2026 Best Wine Fridges.</p>
+</div></footer>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"How Long Wine Actually Lasts in a Wine Fridge","description":"Opened, unopened, and the humidity question that decides whether the corks survive the wait.","image":"https://best-wine-fridges.com/images/hero-how-long-does-wine-last-in-a-wine-fridge.webp","author":{"@type":"Person","name":"Ilane Tall"},"publisher":{"@type":"Organization","name":"Best Wine Fridges","url":"https://best-wine-fridges.com/"},"datePublished":"2026-09-13","dateModified":"2026-09-13","mainEntityOfPage":{"@type":"WebPage","@id":"https://best-wine-fridges.com/how-long-does-wine-last-in-a-wine-fridge"},"inLanguage":"en-US"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"HowTo","name":"How to Make an Opened Bottle of Wine Last Longer","description":"Resealing and storing an opened bottle of wine to slow oxidation and stretch its drinking window by a few extra days.","image":"https://best-wine-fridges.com/images/hero-how-long-does-wine-last-in-a-wine-fridge.webp","step":[
+ {"@type":"HowToStep","name":"Reseal it immediately","text":"Push the original cork back in, or better, use a rubber wine stopper, which seals more reliably than a slightly swollen, wine-stained cork."},
+ {"@type":"HowToStep","name":"Remove excess air","text":"Use a vacuum pump stopper to pull some of the oxygen out of the bottle above the wine, slowing the oxidation reaction."},
+ {"@type":"HowToStep","name":"Store it upright","text":"Stand an opened bottle up rather than on its side to minimize the surface area of wine exposed to the trapped air."},
+ {"@type":"HowToStep","name":"Keep it cold regardless of colour","text":"Refrigerate opened reds as well as whites; cold slows oxidation and spoilage bacteria for every wine type, and a red just needs a few minutes on the counter to warm before serving."},
+ {"@type":"HowToStep","name":"Keep it away from a busy door","text":"Store opened bottles somewhere the door doesn't open constantly, since every opening pulls in warmer, oxygen-rich air."}
+]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+ {"@type":"Question","name":"How long does an unopened bottle of wine actually last in a wine fridge?","acceptedAnswer":{"@type":"Answer","text":"For most everyday wine, meant to be drunk within a year or two of purchase, a wine fridge held near 55°F mainly protects the bottle from the heat and light that would otherwise flatten it faster, rather than adding years the wine wasn't built to hold. Age-worthy wine bought to hold for five or more years is a longer, more specialized conversation, usually involving a larger setup than a countertop fridge."}},
+ {"@type":"Question","name":"Does refrigeration really extend how long an opened bottle lasts?","acceptedAnswer":{"@type":"Answer","text":"Yes, but modestly. Cold slows the oxidation reaction that starts the moment a cork comes out, and slows spoilage bacteria, which is why a resealed, refrigerated bottle outlasts one left on the counter. It doesn't stop the reaction — most opened wine is still best within three to five days, sparkling within one to three, and fortified wines like port considerably longer thanks to their higher alcohol content."}},
+ {"@type":"Question","name":"Does a vacuum stopper actually make a difference?","acceptedAnswer":{"@type":"Answer","text":"Yes, though it buys days rather than weeks. Pulling some of the oxygen out of the bottle slows the same reaction refrigeration slows, and the two combine for a noticeably longer window than either alone. An inert-gas preservation spray goes a step further by blanketing the wine's surface so new oxygen can't easily reach it."}},
+ {"@type":"Question","name":"At what point should I stop buying a bigger wine fridge and start planning a cellar?","acceptedAnswer":{"@type":"Answer","text":"Once you're consistently buying faster than you're drinking, running out of room more often than not, and managing wines on genuinely different aging timelines that one or two fridge zones can't serve well — typically somewhere past the 100-bottle mark. Below that, a larger fridge is almost always the simpler and cheaper answer."}}
+]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ItemList","name":"Wine fridges referenced in this guide","itemListElement":[
+ {"@type":"ListItem","position":1,"item":{"@type":"Product","name":"Cuisinart CWC-800CEN 8-Bottle Private Reserve Wine Cellar","image":"https://best-wine-fridges.com/images/amazon-B08F2JR83Y.webp","offers":{"@type":"Offer","priceCurrency":"USD","price":"229.95","availability":"https://schema.org/InStock","url":"https://www.amazon.com/dp/B08F2JR83Y?tag=best-winefridges-20"}}},
+ {"@type":"ListItem","position":2,"item":{"@type":"Product","name":"Hamilton Beach HBWF4303 43-Bottle Wine Cooler Fridge Cellar","image":"https://best-wine-fridges.com/images/amazon-B0CQ74255X.webp","offers":{"@type":"Offer","priceCurrency":"USD","price":"248.00","availability":"https://schema.org/InStock","url":"https://www.amazon.com/dp/B0CQ74255X?tag=best-winefridges-20"}}},
+ {"@type":"ListItem","position":3,"item":{"@type":"Product","name":"Techomey 15 Inch Wine Fridge Under Counter 31 Bottle","image":"https://best-wine-fridges.com/images/amazon-B0BPD9378R.webp","offers":{"@type":"Offer","priceCurrency":"USD","price":"259.99","availability":"https://schema.org/InStock","url":"https://www.amazon.com/dp/B0BPD9378R?tag=best-winefridges-20"}}}
+]}
+</script>
+
+<script src="/site.js" defer></script>
+</body>
+</html>
