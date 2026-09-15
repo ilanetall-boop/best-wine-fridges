@@ -246,6 +246,16 @@
       "minutes": 14,
       "date": "2026-09-13",
       "featured": true
+    },
+    {
+      "slug": "best-wine-fridges-with-a-lock",
+      "title": "The Best Wine Fridges With a Lock",
+      "description": "A lock matters in a shared house, an office or a rental. Which cabinets have a real one.",
+      "category": "Buying guide",
+      "hero": "hero-best-wine-fridges-with-a-lock",
+      "minutes": 17,
+      "date": "2026-09-15",
+      "featured": true
     }
   ]
 }
