@@ -266,6 +266,16 @@
       "minutes": 16,
       "date": "2026-09-16",
       "featured": true
+    },
+    {
+      "slug": "wine-fridge-shelving-wood-vs-wire",
+      "title": "Wine Fridge Shelving: Wood or Wire, and Why It Matters",
+      "description": "Shelving decides how many bottles actually fit and whether the fat ones fit at all.",
+      "category": "Guide",
+      "hero": "hero-wine-fridge-shelving-wood-vs-wire",
+      "minutes": 16,
+      "date": "2026-09-17",
+      "featured": true
     }
   ]
 }
