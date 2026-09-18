@@ -276,6 +276,16 @@
       "minutes": 16,
       "date": "2026-09-17",
       "featured": true
+    },
+    {
+      "slug": "how-to-move-and-restart-a-wine-fridge",
+      "title": "How to Move a Wine Fridge (and Restart It Safely)",
+      "description": "A compressor cabinet moved upright and switched on immediately can be ruined in a minute.",
+      "category": "How-to",
+      "hero": "hero-how-to-move-and-restart-a-wine-fridge",
+      "minutes": 15,
+      "date": "2026-09-18",
+      "featured": true
     }
   ]
 }
