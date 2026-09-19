@@ -286,6 +286,16 @@
       "minutes": 15,
       "date": "2026-09-18",
       "featured": true
+    },
+    {
+      "slug": "best-30-inch-wine-fridges",
+      "title": "The Best 30-Inch Wine Fridges",
+      "description": "The width where a cabinet stops being furniture and starts being an appliance run.",
+      "category": "Buying guide",
+      "hero": "hero-best-30-inch-wine-fridges",
+      "minutes": 18,
+      "date": "2026-09-19",
+      "featured": true
     }
   ]
 }
