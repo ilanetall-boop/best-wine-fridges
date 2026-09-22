@@ -316,6 +316,16 @@
       "minutes": 16,
       "date": "2026-09-21",
       "featured": true
+    },
+    {
+      "slug": "best-single-zone-wine-fridges",
+      "title": "The Best Single Zone Wine Fridges",
+      "description": "One zone, one setpoint, and usually more bottles per dollar than a dual-zone equivalent. The honest case for buying simple, and the picks that make it work.",
+      "category": "Roundup",
+      "hero": "hero-best-single-zone-wine-fridges",
+      "minutes": 15,
+      "date": "2026-09-22",
+      "featured": true
     }
   ]
 }
