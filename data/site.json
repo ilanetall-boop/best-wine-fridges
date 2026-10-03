@@ -420,6 +420,16 @@
       "minutes": 15,
       "date": "2026-10-03",
       "featured": true
+    },
+    {
+      "slug": "how-to-clean-and-maintain-a-wine-fridge",
+      "title": "How to Clean and Maintain a Wine Fridge",
+      "description": "A wine fridge is a sealed, humid box that runs for years without a filter change. The maintenance that actually prevents mold, a failed door seal and a dying compressor.",
+      "category": "How-to",
+      "hero": "hero-how-to-clean-and-maintain-a-wine-fridge",
+      "minutes": 16,
+      "date": "2026-10-04",
+      "featured": true
     }
   ]
 }
