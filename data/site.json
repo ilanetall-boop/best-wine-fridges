@@ -430,6 +430,16 @@
       "minutes": 16,
       "date": "2026-10-04",
       "featured": true
+    },
+    {
+      "slug": "wine-fridge-buying-checklist-what-to-check-before-you-buy",
+      "title": "The Wine Fridge Buying Checklist: What to Check Before You Click Buy",
+      "description": "Bottle count, zone count, venting type, noise level, door swing and warranty — the six specs that decide whether a listing is right for your space, checked in order.",
+      "category": "Buying advice",
+      "hero": "hero-wine-fridge-buying-checklist-what-to-check-before-you-buy",
+      "minutes": 15,
+      "date": "2026-10-05",
+      "featured": true
     }
   ]
 }
