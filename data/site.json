@@ -440,6 +440,16 @@
       "minutes": 15,
       "date": "2026-10-05",
       "featured": true
+    },
+    {
+      "slug": "best-wine-fridges-for-a-home-bar",
+      "title": "The Best Wine Fridges for a Home Bar",
+      "description": "A home bar gets opened constantly during a party, not once a week. The units built for that duty cycle — visible storage, a lock, and enough capacity to survive a gathering.",
+      "category": "Buying guide",
+      "hero": "hero-best-wine-fridges-for-a-home-bar",
+      "minutes": 14,
+      "date": "2026-10-06",
+      "featured": true
     }
   ]
 }
