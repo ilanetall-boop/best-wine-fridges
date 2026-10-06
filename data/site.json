@@ -450,6 +450,16 @@
       "minutes": 14,
       "date": "2026-10-06",
       "featured": true
+    },
+    {
+      "slug": "wine-fridge-condensation-and-foggy-glass-door-fix",
+      "title": "Wine Fridge Condensation and a Foggy Glass Door: What It Means",
+      "description": "Fog between the panes is a different problem than fog on the outside. One is cosmetic, one means the seal has failed. How to tell them apart before you call it broken.",
+      "category": "Troubleshooting",
+      "hero": "hero-wine-fridge-condensation-and-foggy-glass-door-fix",
+      "minutes": 15,
+      "date": "2026-10-07",
+      "featured": true
     }
   ]
 }
