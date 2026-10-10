@@ -490,6 +490,16 @@
       "minutes": 14,
       "date": "2026-10-10",
       "featured": true
+    },
+    {
+      "slug": "best-wine-fridges-for-restaurants-and-small-bars",
+      "title": "The Best Wine Fridges for Restaurants and Small Bars",
+      "description": "Commercial use means constant door-opening, longer duty cycles and a lock that actually matters. The cabinets built to take it, at prices below true commercial equipment.",
+      "category": "Buying guide",
+      "hero": "hero-best-wine-fridges-for-restaurants-and-small-bars",
+      "minutes": 15,
+      "date": "2026-10-11",
+      "featured": true
     }
   ]
 }
