@@ -480,6 +480,16 @@
       "minutes": 15,
       "date": "2026-10-09",
       "featured": true
+    },
+    {
+      "slug": "wine-fridge-error-codes-and-display-lights-explained",
+      "title": "Wine Fridge Error Codes and Blinking Display Lights, Explained",
+      "description": "An E1, a flashing temperature readout or a blinking alarm icon usually means something specific and fixable. Reading the panel before assuming the compressor is dead.",
+      "category": "Troubleshooting",
+      "hero": "hero-wine-fridge-error-codes-and-display-lights-explained",
+      "minutes": 14,
+      "date": "2026-10-10",
+      "featured": true
     }
   ]
 }
