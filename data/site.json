@@ -540,6 +540,16 @@
       "minutes": 18,
       "date": "2026-10-15",
       "featured": true
+    },
+    {
+      "slug": "wine-fridge-compressor-running-constantly-or-cycling-noise",
+      "title": "Wine Fridge Compressor Running Constantly: Normal Cycling or a Problem?",
+      "description": "A compressor that hums for stretches and then goes fully silent is doing its job. One that never stops is usually telling you something about the seal, the room, or the thermostat.",
+      "category": "Troubleshooting",
+      "hero": "hero-wine-fridge-compressor-running-constantly-or-cycling-noise",
+      "minutes": 16,
+      "date": "2026-10-16",
+      "featured": true
     }
   ]
 }
