@@ -570,6 +570,16 @@
       "minutes": 12,
       "date": "2026-10-18",
       "featured": true
+    },
+    {
+      "slug": "best-wine-fridges-50-to-80-bottles",
+      "title": "The Best Wine Fridges Between 50 and 80 Bottles",
+      "description": "The mid-size jump between a growing collection and a serious one. What changes structurally once a cabinet has to hold this many bottles, and the cabinets that handle it.",
+      "category": "Roundup",
+      "hero": "hero-best-wine-fridges-50-to-80-bottles",
+      "minutes": 15,
+      "date": "2026-10-19",
+      "featured": true
     }
   ]
 }
