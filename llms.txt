@@ -1,6 +1,6 @@
 # Best Wine Fridges
 
-> Independent, research-based comparisons of wine refrigerators, wine coolers and wine cellars for a US audience. Published by Neclid LTD. Author: Ilane Tall.
+> Independent, research-based comparisons of wine refrigerators, wine coolers and wine cellars for a US audience. Published by Neto Consulting & Services Ltd. Author: Ilane Tall.
 
 ## What this site is
 
@@ -88,4 +88,4 @@ Best Wine Fridges helps people choose a wine refrigerator that matches their spa
 
 ## About
 
-Best Wine Fridges is published by Neclid LTD (Ashdod, Israel) for a US audience. Editorial contact: hello@best-wine-fridges.com. Full method and disclosure: https://best-wine-fridges.com/about
+Best Wine Fridges is published by Neto Consulting & Services Ltd (UK company 17423608) for a US audience. Editorial contact: hello@best-wine-fridges.com. Full method and disclosure: https://best-wine-fridges.com/about
