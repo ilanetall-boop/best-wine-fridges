@@ -660,6 +660,16 @@
       "minutes": 17,
       "date": "2026-10-27",
       "featured": true
+    },
+    {
+      "slug": "wine-fridge-odor-and-carbon-filtration-explained",
+      "title": "Wine Fridge Odor and Carbon Filtration: What It Actually Does",
+      "description": "A sealed cabinet that runs for years can pick up a smell of its own, and a handful of units now advertise a carbon filter to fix it. What the filter is actually doing, and when you do not need one.",
+      "category": "Guide",
+      "hero": "hero-wine-fridge-odor-and-carbon-filtration-explained",
+      "minutes": 13,
+      "date": "2026-10-28",
+      "featured": true
     }
   ]
 }
