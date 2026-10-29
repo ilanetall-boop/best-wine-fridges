@@ -670,6 +670,16 @@
       "minutes": 13,
       "date": "2026-10-28",
       "featured": true
+    },
+    {
+      "slug": "best-etl-ul-certified-wine-fridges",
+      "title": "The Best ETL and UL Certified Wine Fridges",
+      "description": "A safety listing from ETL or UL is what a landlord, an insurer, or a campus housing office actually checks for — not the brand name. The units that carry it, across four different sizes.",
+      "category": "Buying guide",
+      "hero": "hero-best-etl-ul-certified-wine-fridges",
+      "minutes": 13,
+      "date": "2026-10-29",
+      "featured": true
     }
   ]
 }
