@@ -680,6 +680,16 @@
       "minutes": 13,
       "date": "2026-10-29",
       "featured": true
+    },
+    {
+      "slug": "wine-fridge-cost-per-bottle-which-size-actually-gives-the-best-value",
+      "title": "Wine Fridge Cost Per Bottle: Which Size Actually Gives You the Best Value",
+      "description": "Divide the price by the bottle count and the ranking changes completely — a $1,292 cabinet can cost more per bottle than a $220 one. The real value ladder, not the marketing one.",
+      "category": "Comparison",
+      "hero": "hero-wine-fridge-cost-per-bottle-which-size-actually-gives-the-best-value",
+      "minutes": 14,
+      "date": "2026-10-30",
+      "featured": true
     }
   ]
 }
