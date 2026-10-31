@@ -690,6 +690,16 @@
       "minutes": 14,
       "date": "2026-10-30",
       "featured": true
+    },
+    {
+      "slug": "wine-fridge-repair-or-replace-decision-guide",
+      "title": "Wine Fridge Repair or Replace? The Honest Decision Guide",
+      "description": "A failed gasket is a $15 fix. A dead compressor on a $300 unit almost never is. How to tell which one you are looking at before you call anyone or order a replacement.",
+      "category": "Troubleshooting",
+      "hero": "hero-wine-fridge-repair-or-replace-decision-guide",
+      "minutes": 15,
+      "date": "2026-10-31",
+      "featured": true
     }
   ]
 }
