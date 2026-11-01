@@ -700,6 +700,16 @@
       "minutes": 15,
       "date": "2026-10-31",
       "featured": true
+    },
+    {
+      "slug": "wine-cooler-vs-wine-cellar-vs-wine-refrigerator-naming-explained",
+      "title": "Wine Cooler vs Wine Cellar vs Wine Refrigerator: The Names Mean Less Than You Think",
+      "description": "The same compressor cabinet gets called a cooler, a cellar, a refrigerator and sometimes a chiller, often by the same brand. What to actually read instead of the product name.",
+      "category": "Guide",
+      "hero": "hero-wine-cooler-vs-wine-cellar-vs-wine-refrigerator-naming-explained",
+      "minutes": 14,
+      "date": "2026-11-01",
+      "featured": true
     }
   ]
 }
