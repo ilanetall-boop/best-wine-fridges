@@ -710,6 +710,16 @@
       "minutes": 14,
       "date": "2026-11-01",
       "featured": true
+    },
+    {
+      "slug": "wine-fridge-delivery-and-unboxing-damage-checklist",
+      "title": "Wine Fridge Delivery Checklist: What to Check in the First 10 Minutes",
+      "description": "A cracked internal pane or a dented door often shows up only once the unit is upright and running. The checks worth doing before the return window closes, not after a year of ownership.",
+      "category": "How-to",
+      "hero": "hero-wine-fridge-delivery-and-unboxing-damage-checklist",
+      "minutes": 12,
+      "date": "2026-11-02",
+      "featured": true
     }
   ]
 }
