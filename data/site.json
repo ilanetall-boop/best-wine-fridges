@@ -720,6 +720,16 @@
       "minutes": 12,
       "date": "2026-11-02",
       "featured": true
+    },
+    {
+      "slug": "best-wine-fridges-20-to-45-bottles",
+      "title": "The Best Wine Fridges With 20 to 45 Bottles",
+      "description": "Below 20 bottles a cabinet outgrows itself within a year; above 45 the price jumps into a different class. The sweet-spot size most households actually settle on, and the cabinets that fill it well.",
+      "category": "Roundup",
+      "hero": "hero-best-wine-fridges-20-to-45-bottles",
+      "minutes": 14,
+      "date": "2026-11-03",
+      "featured": true
     }
   ]
 }
