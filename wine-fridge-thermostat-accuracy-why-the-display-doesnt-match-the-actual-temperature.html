@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wine Fridge Thermostat Accuracy: Why the Display Doesn't Match the Actual Temperature</title>
+<meta name="description" content="A digital readout of 55°F and a thermometer on the middle shelf reading 59°F are both telling the truth — just about different places in the cabinet. Why that gap exists, and when it is actually a fault.">
+<link rel="canonical" href="https://best-wine-fridges.com/wine-fridge-thermostat-accuracy-why-the-display-doesnt-match-the-actual-temperature">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Best Wine Fridges">
+<meta property="og:title" content="Wine Fridge Thermostat Accuracy: Why the Display Doesn't Match the Actual Temperature">
+<meta property="og:description" content="A digital readout of 55°F and a thermometer on the middle shelf reading 59°F are both telling the truth — just about different places in the cabinet. Why that gap exists, and when it is actually a fault.">
+<meta property="og:image" content="https://best-wine-fridges.com/images/hero-wine-fridge-thermostat-accuracy-why-the-display-doesnt-match-the-actual-temperature.webp">
+<meta property="og:url" content="https://best-wine-fridges.com/wine-fridge-thermostat-accuracy-why-the-display-doesnt-match-the-actual-temperature">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Wine Fridge Thermostat Accuracy: Why the Display Doesn't Match the Actual Temperature">
+<meta name="twitter:description" content="A digital readout of 55°F and a thermometer on the middle shelf reading 59°F are both telling the truth — just about different places in the cabinet.">
+<meta name="twitter:image" content="https://best-wine-fridges.com/images/hero-wine-fridge-thermostat-accuracy-why-the-display-doesnt-match-the-actual-temperature.webp">
+<meta name="theme-color" content="#1A0710">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="alternate icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+  :root{
+    --ground:#F7F3F2; --surface:#FFFFFF; --surface-2:#F1E7E8;
+    --ink:#231016; --ink-soft:#45222C; --muted:#7A5C63; --line:#E7D9DB;
+    --wine:#9B2247; --wine-deep:#6B1230; --wine-tint:#F7E6EB;
+    --brass:#A9803A; --brass-lite:#CFA666; --brass-tint:#F5ECDC;
+    --dark:#1A0710; --dark-2:#2E0F1D; --on-dark:#F3E8EA; --on-dark-mute:#B79AA2;
+    --star:#D9A400;
+    --shadow:0 1px 2px rgba(35,16,22,.05),0 22px 48px -26px rgba(35,16,22,.32);
+    --shadow-sm:0 1px 2px rgba(35,16,22,.05),0 10px 24px -16px rgba(35,16,22,.26);
+    --radius:20px; --radius-sm:12px; --maxw:1120px;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --ground:#150609; --surface:#200C13; --surface-2:#2A1119;
+    --ink:#F3E8EA; --ink-soft:#DBC4CA; --muted:#A98D94; --line:#3B1A24;
+    --wine:#E8798F; --wine-deep:#F3A3B3; --wine-tint:#2C0F19;
+    --brass:#D9B36A; --brass-lite:#E7C98C; --brass-tint:#241C0E;
+    --surface-2b:#2A1119;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }}
+  :root[data-theme="dark"]{
+    --ground:#150609; --surface:#200C13; --surface-2:#2A1119;
+    --ink:#F3E8EA; --ink-soft:#DBC4CA; --muted:#A98D94; --line:#3B1A24;
+    --wine:#E8798F; --wine-deep:#F3A3B3; --wine-tint:#2C0F19;
+    --brass:#D9B36A; --brass-lite:#E7C98C; --brass-tint:#241C0E;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);
+    font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 26px}
+  a{color:inherit}
+  h1,h2,h3{margin:0;line-height:1.08;letter-spacing:-.01em;text-wrap:balance}
+  .serif{font-family:var(--serif)}
+  p{margin:0 0 1rem}
+  .eyebrow{font-family:var(--sans);font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
+  .tnum{font-variant-numeric:tabular-nums}
+  .stars{color:var(--star);letter-spacing:2px}
+
+  /* ---------- header ---------- */
+  header.site{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--ground) 82%,transparent);
+    backdrop-filter:saturate(1.3) blur(12px);border-bottom:1px solid var(--line)}
+  .bar{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{display:inline-flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);font-weight:700;letter-spacing:-.01em}
+  .brand .bn{font-family:var(--serif);font-size:1.16rem}
+  nav.site a{color:var(--muted);text-decoration:none;font-size:.86rem;font-weight:600;letter-spacing:.01em;margin-left:22px;transition:color .2s}
+  nav.site a:hover{color:var(--ink)}
+  @media (max-width:660px){nav.site{display:none}}
+
+  /* ---------- hero (immersive dark, cellar light) ---------- */
+  .hero{position:relative;background:radial-gradient(120% 90% at 80% -10%,var(--dark-2),var(--dark) 60%);color:var(--on-dark);overflow:hidden;isolation:isolate}
+  .caustic{position:absolute;inset:-30%;z-index:0;opacity:.5;pointer-events:none;filter:blur(30px);
+    background:
+      radial-gradient(28% 40% at 22% 30%,rgba(232,121,143,.26),transparent 60%),
+      radial-gradient(24% 34% at 74% 24%,rgba(217,179,106,.22),transparent 60%),
+      radial-gradient(30% 42% at 60% 78%,rgba(155,34,71,.30),transparent 62%);
+    animation:drift 22s ease-in-out infinite alternate}
+  .caustic.b{opacity:.35;animation-duration:30s;animation-direction:alternate-reverse;
+    background:
+      radial-gradient(26% 36% at 40% 60%,rgba(243,163,179,.22),transparent 60%),
+      radial-gradient(22% 30% at 85% 70%,rgba(217,179,106,.20),transparent 60%)}
+  @keyframes drift{0%{transform:translate3d(-2%,-1%,0) scale(1)}50%{transform:translate3d(3%,2%,0) scale(1.08)}100%{transform:translate3d(-1%,3%,0) scale(1.04)}}
+  .hero .wrap{position:relative;z-index:1;padding:74px 26px 88px}
+  .hero .eyebrow{color:var(--brass-lite)}
+  .hero h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.5rem,1.4rem+4.6vw,4.7rem);letter-spacing:-.02em;max-width:15ch;margin:.5rem 0 0}
+  .hero h1 em{font-style:italic;color:var(--brass-lite)}
+  .hero .lede{font-size:1.24rem;line-height:1.55;color:var(--on-dark-mute);max-width:52ch;margin-top:1.3rem}
+  .hero .meta{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:26px;font-size:.86rem;color:var(--on-dark-mute)}
+  .hero .meta b{color:var(--on-dark)}
+  .rule{height:1px;background:linear-gradient(90deg,var(--brass),transparent);border:0;margin:26px 0 0;max-width:220px}
+
+  /* ---------- #1 feature (the centerpiece) ---------- */
+  .feature{position:relative;z-index:2;margin:-56px 0 0}
+  .feature .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+    display:grid;grid-template-columns:1.1fr 1fr;overflow:hidden}
+  .feature .left{padding:38px}
+  .feature .kick{display:inline-flex;align-items:center;gap:9px;color:var(--brass-text);font-weight:700;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase}
+  .feature .kick::before{content:"";width:26px;height:1px;background:var(--brass)}
+  .feature h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.8rem,1.2rem+2vw,2.7rem);margin:.5rem 0 .2rem}
+  .feature .verdict{color:var(--ink-soft);font-size:1.06rem;margin:.4rem 0 1rem;max-width:44ch}
+  .feature .rl{display:flex;align-items:center;gap:10px;font-size:.92rem;color:var(--muted);margin-bottom:1.2rem;flex-wrap:wrap}
+  .feature .rl b{color:var(--ink)}
+  .btn{display:inline-flex;align-items:center;gap:9px;background:var(--wine);color:#fff;font-weight:700;
+    padding:14px 26px;border-radius:12px;text-decoration:none;box-shadow:var(--shadow-sm);transition:transform .15s,background .2s}
+  .btn:hover{background:var(--wine-deep);transform:translateY(-1px)}
+  .btn .arw{transition:transform .2s}.btn:hover .arw{transform:translateX(3px)}
+  .feature .right{background:linear-gradient(160deg,var(--dark-2),var(--dark));color:var(--on-dark);padding:38px;display:flex;flex-direction:column;justify-content:center;gap:6px;position:relative}
+  .feature .right .lab{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--on-dark-mute)}
+  .feature .bigprice{font-family:var(--serif);font-size:clamp(3rem,2rem+4vw,4.4rem);font-weight:600;line-height:1;color:var(--brass-lite)}
+  .feature .bigprice sup{font-size:.4em;top:-1.2em;color:var(--on-dark)}
+  .feature .right .note{color:var(--on-dark-mute);font-size:.92rem;margin-top:6px;max-width:30ch}
+  .feature .right .mono{margin-top:16px;font-family:var(--serif);font-size:1.05rem;color:var(--on-dark)}
+  @media (max-width:820px){.feature .card{grid-template-columns:1fr}.feature .right{order:-1}}
+
+  /* ---------- generic section ---------- */
+  section{padding:44px 0}
+  .kicker{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+  .kicker .eyebrow{color:var(--wine-deep)}
+  .kicker::after{content:"";flex:1;height:1px;background:var(--line)}
+  .h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.7rem,1.2rem+1.7vw,2.5rem);letter-spacing:-.01em}
+  .sub{color:var(--muted);max-width:62ch;margin:.6rem 0 0}
+
+  .notes{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-top:24px}
+  .notes .n{background:var(--surface);padding:24px}
+  .notes .num{font-family:var(--serif);font-size:1.5rem;color:var(--brass-text);line-height:1}
+  .notes h3{font-size:1.02rem;font-weight:750;margin:.5rem 0 .35rem}
+  .notes p{font-size:.9rem;color:var(--muted);margin:0}
+  @media (max-width:820px){.notes{grid-template-columns:1fr 1fr}}
+  @media (max-width:520px){.notes{grid-template-columns:1fr}}
+
+  /* comparison */
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);background:var(--surface);margin-top:22px}
+  table{border-collapse:collapse;width:100%;min-width:740px;font-size:.94rem}
+  thead th{background:var(--surface-2);text-align:left;padding:16px;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line)}
+  td{padding:15px 16px;border-bottom:1px solid var(--line);vertical-align:middle}
+  tbody tr:last-child td{border-bottom:0}
+  tbody tr:hover{background:var(--surface-2)}
+  td.name{font-family:var(--serif);font-weight:600;font-size:1.05rem}
+  .win td{background:var(--brass-tint)}
+  .win td.name{color:var(--brass-text)}
+  .win td:first-child{box-shadow:inset 3px 0 0 var(--brass)}
+  .price{font-weight:800;font-variant-numeric:tabular-nums}
+  .rev{color:var(--muted);font-size:.82rem}
+  .tget{display:inline-block;background:var(--ink);color:var(--surface);font-weight:700;font-size:.8rem;padding:8px 14px;border-radius:9px;text-decoration:none;white-space:nowrap;transition:background .2s}
+  .tget:hover{background:var(--wine-deep);color:#fff}
+
+  /* picks (editorial cards) */
+  .picks{display:flex;flex-direction:column;gap:26px;margin-top:26px}
+  .pick{display:grid;grid-template-columns:96px 1fr auto;gap:26px;align-items:start;
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:28px}
+  .pick .rank{font-family:var(--serif);font-size:2.6rem;color:var(--brass-text);line-height:.9;font-weight:600}
+  .pick .rank small{display:block;font-family:var(--sans);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-top:8px}
+  .pick h3{font-family:var(--serif);font-weight:600;font-size:1.44rem}
+  .pick .who{color:var(--wine-deep);font-weight:700;font-size:.9rem;margin:.25rem 0 .5rem}
+  .pick .rl2{display:flex;align-items:center;gap:8px;font-size:.86rem;color:var(--muted);margin-bottom:.7rem;flex-wrap:wrap}
+  .pick .rl2 b{color:var(--ink)}
+  .pick p.body{margin:.2rem 0 0;color:var(--ink-soft)}
+  .quote{border-left:2px solid var(--brass);padding-left:14px;margin:.9rem 0 0;font-family:var(--serif);font-style:italic;color:var(--ink);font-size:1.02rem}
+  .aside{display:flex;flex-direction:column;align-items:flex-end;gap:12px;text-align:right;min-width:150px}
+  .aside .pr{font-family:var(--serif);font-size:2rem;font-weight:600;font-variant-numeric:tabular-nums;line-height:1}
+  .aside .tag{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .buy{display:inline-flex;align-items:center;gap:8px;background:var(--wine);color:#fff;font-weight:700;padding:11px 20px;border-radius:10px;text-decoration:none;transition:background .2s,transform .15s;font-size:.92rem}
+  .buy:hover{background:var(--wine-deep);transform:translateY(-1px)}
+  @media (max-width:820px){.pick{grid-template-columns:64px 1fr}.aside{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center;text-align:left;border-top:1px solid var(--line);padding-top:16px}}
+
+  /* method / faq */
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:22px}
+  @media (max-width:760px){.cols{grid-template-columns:1fr}}
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow-sm)}
+  .panel .eyebrow{color:var(--wine-deep)}
+  .panel h3{font-family:var(--serif);font-weight:600;font-size:1.3rem;margin:.5rem 0 .5rem}
+  .panel p{color:var(--muted);margin:0}
+  .faq details{border-top:1px solid var(--line);padding:16px 0}
+  .faq details:first-of-type{border-top:0}
+  .faq summary{cursor:pointer;font-family:var(--serif);font-size:1.12rem;list-style:none;display:flex;justify-content:space-between;gap:14px;color:var(--ink)}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";color:var(--brass-text);font-family:var(--sans);font-weight:700}
+  .faq details[open] summary::after{content:"–"}
+  .faq p{margin:.8rem 0 0;color:var(--muted)}
+
+  footer.site{margin-top:20px;background:var(--dark);color:var(--on-dark-mute)}
+  footer .wrap{padding:40px 26px}
+  footer .fbrand{font-family:var(--serif);color:var(--on-dark);font-size:1.2rem}
+  footer p{font-size:.84rem;margin:.6rem 0 0;max-width:80ch}
+  footer a{color:var(--brass-lite)}
+  /* imagery */
+  .hero .wrap{display:grid;grid-template-columns:1.12fr .88fr;gap:48px;align-items:center}
+  .hero .himg{border-radius:20px;border:1px solid rgba(207,166,102,.4);box-shadow:0 30px 60px -30px rgba(0,0,0,.55);width:100%;height:auto;display:block}
+  @media (max-width:860px){.hero .wrap{grid-template-columns:1fr;gap:30px}}
+  .fpimg{background:#fff;border-radius:14px;padding:14px;box-shadow:0 12px 28px -14px rgba(0,0,0,.5);width:min(230px,70%);margin-bottom:16px}
+  .fpimg img{width:100%;height:auto;display:block}
+  .aside .pimg{width:150px;height:150px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px;display:flex;align-items:center;justify-content:center}
+  .aside .pimg img{max-width:100%;max-height:100%;display:block}
+  @media (max-width:820px){.aside .pimg{width:96px;height:96px;padding:6px}}
+  td.name{display:flex;align-items:center;gap:12px}
+  .thumb{width:46px;height:46px;flex:0 0 auto;background:#fff;border:1px solid var(--line);border-radius:9px;padding:4px}
+  .thumb img{width:100%;height:100%;object-fit:contain;display:block}
+  :focus-visible{outline:2px solid var(--wine);outline-offset:3px;border-radius:5px}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}.btn:hover,.buy:hover{transform:none}}
+</style>
+<style>
+  .artmain{max-width:68ch;margin:0 auto;padding:36px 0 8px}
+  .artmain h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.5rem,1.1rem+1.4vw,2.15rem);letter-spacing:-.01em;margin:2.5rem 0 .85rem}
+  .artmain h3{font-family:var(--serif);font-weight:600;font-size:1.22rem;margin:1.9rem 0 .5rem}
+  .artmain p{color:var(--ink-soft);font-size:1.06rem;line-height:1.68}
+  .artmain ul,.artmain ol{color:var(--ink-soft);font-size:1.06rem;line-height:1.68;padding-left:1.15rem;margin:0 0 1.1rem}
+  .artmain li{margin:.45rem 0}
+  .artmain p a,.artmain li a{color:var(--wine-deep);font-weight:600;text-underline-offset:3px}
+  .artmain p a:hover,.artmain li a:hover{color:var(--wine)}
+  .byline{color:var(--muted);font-size:.9rem;margin:0 0 1.2rem}
+  .disclosure{font-size:.86rem;color:var(--muted);border-left:2px solid var(--brass);padding:2px 0 2px 14px;margin:0 0 1.8rem}
+  .tldr{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-sm);box-shadow:var(--shadow-sm);padding:24px 26px;margin:0 0 1.6rem}
+  .tldr .eyebrow{color:var(--wine-deep)}
+  .tldr p{margin:.7rem 0 0;color:var(--ink)}
+  .tldr p:first-of-type{margin-top:.6rem}
+  .callout{background:var(--wine-tint);border-radius:var(--radius-sm);padding:20px 24px;margin:1.6rem 0}
+  .callout p{margin:0;color:var(--ink)}
+  .callout p+p{margin-top:.7rem}
+  .keep{border-top:1px solid var(--line);margin-top:2.6rem;padding-top:1.6rem}
+  .keep .eyebrow{color:var(--wine-deep)}
+  .keep ul{list-style:none;padding:0;margin:1rem 0 0}
+  .keep li{margin:.85rem 0}
+  .keep li a{font-family:var(--serif);font-size:1.1rem;font-weight:600;color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line)}
+  .keep li a:hover{border-bottom-color:var(--wine)}
+  .keep li span{display:block;color:var(--muted);font-size:.9rem;margin-top:.2rem}
+  .zonebar{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius-sm);overflow:hidden;margin:1.6rem 0}
+  .zonebar div{background:var(--surface);padding:20px 22px}
+  .zonebar h4{margin:0 0 .4rem;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--wine-deep)}
+  .zonebar p{margin:0;font-size:.95rem;color:var(--ink-soft)}
+  @media (max-width:640px){.zonebar{grid-template-columns:1fr}}
+  .artmain .sig{color:var(--muted);font-size:.92rem;font-style:italic;border-top:1px solid var(--line);padding-top:1.2rem;margin-top:2.2rem}
+</style>
+<style id="a11y">:root{--brass-text:#7A5E28;--star:#B07E00}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--brass-text:#E7C98C;--star:#E8B84B}}:root[data-theme="dark"]{--brass-text:#E7C98C;--star:#E8B84B}nav.site a{color:var(--ink-soft)}.stars{color:var(--star)}thead th{color:var(--ink-soft)}.rev{color:var(--ink-soft)}.kick{color:var(--brass-text)}.win td.name{color:var(--brass-text)}a.btn,a.buy,.btn,.buy{background:#8E1F40 !important;color:#fff !important;text-decoration:none !important}a.btn:hover,a.buy:hover,.btn:hover,.buy:hover{background:#6B1230 !important}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) a.btn,:root:not([data-theme="light"]) a.buy,:root:not([data-theme="light"]) .btn,:root:not([data-theme="light"]) .buy{background:#F0A3B3 !important;color:#2B0A12 !important}:root:not([data-theme="light"]) .btn:hover,:root:not([data-theme="light"]) .buy:hover{background:#F7C0CB}}:root[data-theme="dark"] a.btn,:root[data-theme="dark"] a.buy,:root[data-theme="dark"] .btn,:root[data-theme="dark"] .buy{background:#F0A3B3 !important;color:#2B0A12 !important}</style>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "y3311nnymr");
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8S2SJ0J6EQ"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());gtag('config', 'G-8S2SJ0J6EQ');</script>
+</head>
+<body>
+<header class="site"><div class="wrap bar">
+  <a class="brand" href="/" aria-label="Best Wine Fridges">
+    <svg class="logomark" width="36" height="36" viewBox="0 0 40 40" aria-hidden="true">
+      <defs><radialGradient id="lm" cx="34%" cy="26%" r="86%"><stop offset="0" stop-color="#A32449"/><stop offset=".7" stop-color="#6B1230"/><stop offset="1" stop-color="#2B0D1A"/></radialGradient></defs>
+      <circle cx="20" cy="20" r="19" fill="url(#lm)"/>
+      <circle cx="20" cy="20" r="18.4" fill="none" stroke="#CFA666" stroke-width="1.1" stroke-opacity=".92"/>
+      <circle cx="20" cy="20" r="15.3" fill="none" stroke="#F3E8EA" stroke-width=".6" stroke-opacity=".22"/>
+      <path d="M13.6 10.4h12.8l-1.1 6.2a5.4 5.4 0 0 1-10.6 0Z" fill="#F7F2F3"/>
+      <path d="M20 21.9v6.4" fill="none" stroke="#F7F2F3" stroke-width="1.7" stroke-linecap="round"/>
+      <path d="M15.6 29.3h8.8" fill="none" stroke="#CFA666" stroke-width="1.7" stroke-linecap="round"/>
+      <path d="M14.9 14.6h10.2" fill="none" stroke="#A32449" stroke-width="1.3" stroke-opacity=".55"/>
+    </svg>
+    <span class="bn">Best&thinsp;Wine&thinsp;Fridges</span>
+  </a>
+  <nav class="site" aria-label="Primary">
+    <a href="/#feature">Top pick</a><a href="/#compare">Compare</a><a href="/#picks">The six</a><a href="/#how">Method</a><a href="/#faq">FAQ</a>
+  <a href="/guides">All guides</a></nav>
+</div></header>
+
+<a id="top"></a>
+<div class="hero">
+  <div class="caustic" aria-hidden="true"></div><div class="caustic b" aria-hidden="true"></div>
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Troubleshooting · Wine Refrigerators</span>
+      <h1 class="serif">Why the display and the <em>actual</em> shelf never quite agree.</h1>
+      <p class="lede">A panel reading 55&deg;F and a thermometer on the middle shelf reading 59&deg;F can both be correct — two different points in the same cabinet. Where the sensor actually sits, why a few degrees of gap is normal, and when it genuinely is not.</p>
+      <div class="meta"><span>By <b>Ilane Tall</b></span><span>Updated <b>November 6, 2026</b></span><span><b>Research-based</b> — no testing lab, no invented scores</span></div>
+      <hr class="rule">
+    </div>
+    <img src="/images/hero-wine-fridge-thermostat-accuracy-why-the-display-doesnt-match-the-actual-temperature.webp" width="1600" height="900" loading="eager" fetchpriority="high" decoding="async" class="himg" alt="Close-up of a wine fridge digital temperature display next to an open cabinet door showing bottles on a shelf, illustrating the gap between the panel reading and the shelf temperature">
+  </div>
+</div>
+
+<div class="wrap">
+<main class="artmain">
+
+  <p class="byline">By Ilane Tall · Updated November 6, 2026 · Research-based.</p>
+  <p class="disclosure">Reader-supported: we may earn a commission when you buy through the links on this page, at no additional cost to you. It never changes which product we recommend.</p>
+
+  <div class="tldr">
+    <span class="eyebrow">The short version</span>
+    <p>The sensor that drives your display almost never sits on the shelf where your bottles do — it is usually tucked against the back wall, near the evaporator. A gap of 2–5&deg;F between the panel and a shelf-level thermometer is normal, not a defect, and it widens with every door opening, a near-empty cabinet, and a warm room.</p>
+    <p>The only way to know your actual storage temperature is a separate thermometer left on the middle shelf for 24 hours, read as a range rather than a single snapshot. If that range stays small and stable, the fridge is working as designed. If it is large, growing, or never reaches setpoint at all, that is when <a href="#fault">a warranty call</a> is the right next step.</p>
+  </div>
+
+  <h2 id="sensor">Where the sensor actually lives</h2>
+
+  <p>Every compressor wine fridge has a thermostat, but it is not measuring "the inside of the cabinet" as one number — it measures the air at one specific point, chosen for engineering reasons that have nothing to do with where you load your bottles.</p>
+
+  <p>On most compressor units, the sensor is a small thermistor clipped to or mounted near the evaporator coil, usually along the back wall or underneath the bottom shelf; some designs instead route it near the air return, where circulated air comes back into the cooling unit before being chilled again. Either way, the sensor's job is to tell the compressor when to cycle on and off, and the coil or return path is the fastest, most consistent place to do that — exactly what a control board needs to avoid short-cycling the compressor.</p>
+
+  <p>What it is not optimized for is matching the air in the middle of a shelf, surrounded by bottles. That spot is downstream of the cold air the sensor reads, after it has mixed with room air leaking in around the door seal, absorbed heat from the bottles, and settled according to whatever convection pattern the cabinet's fan (or lack of one) creates. A few degrees of difference is not a measurement error. It is two different locations.</p>
+
+  <p>This matters more in compact single-zone cabinets than expected. A 12-bottle unit like the <strong>Ivation 12 Bottle Compressor Wine Cooler</strong> has a short sensor-to-shelf path simply because the cabinet is small. A 24-inch dual-zone unit like the <strong>MZAVP 24 Inch Wine and Beverage Refrigerator</strong> or the <strong>EORICE 24-Inch Dual Zone</strong> has two sensors and displays — better per-zone control, but not an escape from the same basic gap inside either zone. If your cabinet is unusually narrow, closer to a <a href="/best-12-inch-wine-fridges">12-inch footprint</a>, the effect is often smaller, since there is less distance for convection to establish before reaching a shelf.</p>
+
+  <h2 id="gap">Why a few degrees is normal, not broken</h2>
+
+  <p>A useful way to think about it: the display number is not "the temperature of your wine." It is the temperature at the sensor, at the moment the compressor last cycled. Most thermostats run with a deliberate dead band — the sensor drifts a degree or two above the setpoint, then the compressor runs until it reads a degree or two below it, then shuts off again — oscillating around the setpoint before you even account for where the shelf sits relative to it.</p>
+
+  <p>Add the physical offset between sensor and shelf, and a 2–5&deg;F gap between the display and an independent thermometer is well within what general refrigeration-engineering sources describe as typical. It does not mean the unit is failing to cool; the display was never claiming to report the shelf temperature in the first place.</p>
+
+  <div class="callout">
+    <p><strong>The reframe that helps:</strong> treat the panel as a cycling indicator and rough setpoint confirmation, not a precision thermometer for your bottles. For what your wine is actually experiencing, the only honest source is a thermometer you placed yourself.</p>
+  </div>
+
+  <p>This is also why stability matters more than precision. A cabinet holding steady at 57&deg;F on a shelf thermometer, even with a 55&deg;F panel reading, does less damage to the wine inside than one swinging between 50&deg;F and 60&deg;F while its display technically averages 55&deg;F. Care about the shelf reading's range over a day, not the panel's single digit.</p>
+
+  <h2 id="widens">What widens the gap</h2>
+
+  <p>The 2–5&deg;F baseline gap is not fixed — three everyday conditions reliably push it wider, and none of them are a fault.</p>
+
+  <ul>
+    <li><strong>Door openings.</strong> Every time the door opens, room-temperature, humid air pours in and settles toward whatever shelf is closest to the opening, usually the upper shelves in a front-opening cabinet. The sensor near the coil recovers quickly because it is positioned to react fast; shelf air takes longer because it has to be re-cooled by convection. A household opening the door ten times a day will see a wider average gap than one opening it twice.</li>
+    <li><strong>A full cabinet versus a nearly empty one.</strong> Bottles are thermal mass. A fully loaded cabinet resists temperature swings the way a full freezer resists warming during a power outage — the glass and liquid soak up and release heat slowly, smoothing the gap between cycles. A nearly empty cabinet has almost nothing to buffer the air, so the shelf temperature swings faster and further between cycles. If you are shopping for a size that keeps the cabinet reasonably full rather than mostly air, our <a href="/best-wine-fridges-20-to-45-bottles">guide to wine fridges holding 20 to 45 bottles</a> and our <a href="/wine-fridge-cost-per-bottle-which-size-actually-gives-the-best-value">cost-per-bottle breakdown</a> cover sizing a cabinet to what you actually keep in it.</li>
+    <li><strong>Room temperature swings.</strong> A compressor fridge works harder, and its internal air moves differently, when the room swings from a cool morning to a hot afternoon kitchen. The coil sensor is somewhat insulated from this by its position; a shelf near the door or an upper rack is more exposed to heat through the glass or the gasket. A unit in a garage will show a wider gap on a 90&deg;F afternoon than it does overnight.</li>
+  </ul>
+
+  <p>None of these three points to a broken thermostat — they are normal operating behavior for a compressor appliance responding to how it is used and where it lives.</p>
+
+  <h2 id="testing">Testing it properly</h2>
+
+  <p>The only reliable way to know your real storage temperature is to measure the shelf directly, the same way you would check an oven's actual temperature with an independent thermometer rather than trusting the dial.</p>
+
+  <ol>
+    <li><strong>Get a separate thermometer or thermometer-hygrometer</strong> — a simple digital probe or wireless sensor built for refrigerators works. It just needs to be independent of the fridge's own electronics.</li>
+    <li><strong>Place it on the middle shelf, mid-depth</strong> — not against the back wall near the coil, not pressed against the glass, and not under a fan vent. The goal is to read the air where your bottles actually sit.</li>
+    <li><strong>Leave it undisturbed for at least 24 hours.</strong> Every check resets the cycle you are trying to measure; a full day captures day-night swings and multiple compressor cycles.</li>
+    <li><strong>Read the range, not a single number.</strong> Compare the day's high and low — not one spot-check — to the setpoint on the display.</li>
+  </ol>
+
+  <p>If the shelf average sits within roughly 2–5&deg;F of the setpoint, and the 24-hour swing stays within a handful of degrees, the unit is operating normally. To confirm the fridge is cooling at all before going this granular, our <a href="/wine-fridge-delivery-and-unboxing-damage-checklist">delivery and unboxing checklist</a> covers faster first-day checks.</p>
+
+  <h2 id="picks">The picks used in this guide</h2>
+
+  <p>Not a ranked "best" list — reference points for the two sensor layouts most readers own: a compact single-zone cabinet with one sensor, and a larger dual-zone cabinet with two independent sensors and displays.</p>
+
+  <div class="picks">
+    <article class="pick">
+      <div class="rank">01<small>Compact single zone</small></div>
+      <div>
+        <h3 class="serif">Ivation 12 Bottle Compressor Wine Cooler</h3>
+        <p class="who">One sensor, the shortest sensor-to-shelf distance here</p>
+        <div class="rl2"><b>12 bottles</b><span>·</span><b>Single zone</b><span>·</span><b>Compressor</b><span>·</span><span>Freestanding, with lock</span></div>
+        <p class="body">A small freestanding compressor cooler with one zone and one sensor. Its modest size means less air volume for a coil reading to drift across before it reaches any given shelf — the kind of layout where a 2–3&deg;F gap is typical rather than a wider spread.</p>
+        <p class="quote">Smaller cabinet, shorter distance between what the sensor sees and what a shelf sees.</p>
+      </div>
+      <div class="aside">
+        <span class="pimg"><img src="/images/amazon-B0864S2FPR.webp" alt="Ivation 12 Bottle Compressor Wine Cooler, freestanding fridge with lock, black" width="150" height="150" loading="lazy" decoding="async"></span>
+        <div><span class="tag">Price</span><div class="pr">$249.99</div></div>
+        <a class="buy" href="https://www.amazon.com/dp/B0864S2FPR?tag=best-winefridges-20" rel="nofollow sponsored noopener" target="_blank">Check price &rarr;</a>
+      </div>
+    </article>
+    <article class="pick">
+      <div class="rank">02<small>Dual zone, wine and beverage</small></div>
+      <div>
+        <h3 class="serif">MZAVP 24 Inch Wine and Beverage Refrigerator</h3>
+        <p class="who">Two sensors, two displays, each with its own baseline gap</p>
+        <div class="rl2"><b>20 bottles + 88 cans</b><span>·</span><b>Dual zone</b><span>·</span><b>French door</b><span>·</span><span>Built-in or freestanding</span></div>
+        <p class="body">A 24-inch dual-zone cabinet with a French door and separate wine and beverage compartments. Two independent sensors mean two independent displays and dead bands — a reading that looks "off" on one side can simply mean that zone's sensor sits differently relative to its shelves. Check each zone with its own shelf thermometer rather than assuming both behave identically.</p>
+        <p class="quote">Two zones means two sensors, two cycling patterns, and two gaps to check separately.</p>
+      </div>
+      <div class="aside">
+        <span class="pimg"><img src="/images/amazon-B0DRPDHCSV.webp" alt="MZAVP 24 Inch Wine and Beverage Refrigerator, dual zone with glass French door" width="150" height="150" loading="lazy" decoding="async"></span>
+        <div><span class="tag">Price</span><div class="pr">$599.99</div></div>
+        <a class="buy" href="https://www.amazon.com/dp/B0DRPDHCSV?tag=best-winefridges-20" rel="nofollow sponsored noopener" target="_blank">Check price &rarr;</a>
+      </div>
+    </article>
+    <article class="pick">
+      <div class="rank">03<small>Dual zone, larger capacity</small></div>
+      <div>
+        <h3 class="serif">EORICE 24-Inch Dual Zone Wine and Beverage Refrigerator</h3>
+        <p class="who">Larger cabinet, easiest place to see door-opening effects</p>
+        <div class="rl2"><b>21 bottles + 60 cans</b><span>·</span><b>Dual zone</b><span>·</span><b>LED lighting</b><span>·</span><span>4.2 cu.ft</span></div>
+        <p class="body">A 4.2 cubic foot dual-zone cabinet with LED interior lighting and a glass door. At this size, a door opening or a half-empty compartment shows up more clearly in the shelf-to-display gap simply because there is more interior air for it to affect — a reasonable example of why a fuller cabinet tends to hold a tighter gap than a sparsely loaded one of the same size.</p>
+        <p class="quote">More interior volume makes the gap-widening effects of door openings and empty shelves easier to see.</p>
+      </div>
+      <div class="aside">
+        <span class="pimg"><img src="/images/amazon-B0G13C5TWL.webp" alt="EORICE 24-Inch Dual Zone Wine and Beverage Refrigerator with glass door and LED blue light" width="150" height="150" loading="lazy" decoding="async"></span>
+        <div><span class="tag">Price</span><div class="pr">$739.99</div></div>
+        <a class="buy" href="https://www.amazon.com/dp/B0G13C5TWL?tag=best-winefridges-20" rel="nofollow sponsored noopener" target="_blank">Check price &rarr;</a>
+      </div>
+    </article>
+  </div>
+
+  <h2 id="fault">When the gap actually means a fault</h2>
+
+  <p>Most display-versus-shelf gaps are the normal behavior described above. A smaller number are a real sensor or calibration fault, worth knowing apart before you chase a problem that does not exist — or ignore a real one past the point a warranty would have covered it.</p>
+
+  <ul>
+    <li><strong>The gap is large and growing.</strong> A stable 3–5&deg;F offset is normal. A gap that keeps widening over weeks — or suddenly jumps to 10&deg;F or more — suggests the sensor is drifting out of calibration or has become loose or displaced.</li>
+    <li><strong>The display never changes.</strong> A thermostat showing the identical number regardless of door openings, room swings, or how full the cabinet is almost certainly has a stuck or failed sensor, not a cabinet holding an implausibly perfect temperature.</li>
+    <li><strong>The unit never reaches its setpoint at all, even empty and undisturbed.</strong> If a shelf thermometer shows the interior settling many degrees warmer than the setpoint no matter how long you wait, and the room is not unusually hot, that points toward a cooling problem — a dirty coil, a failing fan, or a compressor issue.</li>
+    <li><strong>The compressor runs continuously without ever cycling off.</strong> A sensor reporting the correct temperature should let the compressor rest once the setpoint is reached. Nonstop running alongside a display that never drops to its target points to the control system, not the sensor working as intended.</li>
+  </ul>
+
+  <p>Any of these four is worth a call to the manufacturer about warranty service rather than a DIY fix, since a sensor or control-board issue is an electronics repair. If weighing a warranty claim against replacing an already-aging unit, our <a href="/wine-fridge-repair-or-replace-decision-guide">repair or replace decision guide</a> walks through that math. And if certification matters for your situation, our <a href="/best-etl-ul-certified-wine-fridges">guide to ETL and UL certified wine fridges</a> covers what that paperwork verifies — a separate question from day-to-day thermostat accuracy.</p>
+
+  <p>One terminology note while troubleshooting: whether the box says "wine cooler," "wine cellar," or "wine refrigerator" has no bearing on any of this. All three names commonly describe the same compressor-cooled cabinet with the same sensor-and-shelf gap — our <a href="/wine-cooler-vs-wine-cellar-vs-wine-refrigerator-naming-explained">naming guide</a> covers why the label tells you less than the spec sheet does.</p>
+
+  <h2 id="method">How we compared these — and what we cannot tell you</h2>
+
+  <p>We compared published manufacturer specifications, current listed prices, and widely documented facts about compressor refrigeration sensor placement and thermostat dead-band behavior. We do not run a testing lab, do not own these specific units, and have not placed a thermometer in any of them ourselves — so you will not find an invented gap figure claiming to be "the" offset for your fridge. The actual gap depends on sensor location, how full the cabinet is, door frequency, and the room it lives in.</p>
+
+  <p>You also will not find a star rating or review count here: the retailer API does not return them for this category, and we do not publish figures we cannot source. Prices quoted were correct at the time of writing and change frequently — confirm the current price before buying.</p>
+
+  <h2 id="faq">Frequently asked questions</h2>
+
+  <h3>Why does my wine fridge display say 55&deg;F while a thermometer on the shelf reads something different?</h3>
+  <p>Because the display reports the temperature at the sensor's location — usually near the evaporator coil or air return at the back — not the air in the middle of a shelf where your bottles sit. A 2–5&deg;F difference is normal for this appliance class and does not by itself indicate a fault.</p>
+
+  <h3>Is a 3–5&deg;F gap between the display and a shelf thermometer normal?</h3>
+  <p>Yes. It reflects both the physical distance between sensor and shelf and the thermostat's built-in dead band, which lets the sensor drift a degree or two above and below the setpoint before the compressor cycles again. A stable gap in this range, measured over a full day, is typical rather than a sign of a problem.</p>
+
+  <h3>Where exactly is the temperature sensor in a wine fridge?</h3>
+  <p>On most compressor units it is a thermistor mounted near the evaporator coil, commonly along the back wall or under the bottom shelf, or near where circulated air returns to the cooling unit — placed to react quickly for the compressor's control logic, not to represent the air around your bottles.</p>
+
+  <h3>When should I call for warranty service because of a temperature mismatch?</h3>
+  <p>When the gap is large and keeps growing rather than holding steady, when the display never changes regardless of conditions, or when a shelf thermometer shows the cabinet never reaching anywhere near its setpoint after a full day undisturbed. Any of those points to a sensor, control-board, or cooling fault rather than the normal offset.</p>
+
+  <div class="keep">
+    <span class="eyebrow">Keep reading</span>
+    <ul>
+      <li><a href="/wine-fridge-repair-or-replace-decision-guide">Wine fridge repair or replace? The honest decision guide</a><span>What to do once a mismatch turns out to be a real fault, not normal offset.</span></li>
+      <li><a href="/wine-fridge-delivery-and-unboxing-damage-checklist">Wine fridge delivery checklist: what to check in the first 10 minutes</a><span>Faster first-day checks before committing to a multi-day thermometer test.</span></li>
+      <li><a href="/wine-fridge-cost-per-bottle-which-size-actually-gives-the-best-value">Wine fridge cost per bottle: which size actually gives you the best value</a><span>A cabinet sized to what you keep in it holds temperature more evenly than one sized for bottles you don't have yet.</span></li>
+    </ul>
+    <p style="margin-top:1.4rem"><a href="/">See all six of our wine fridge picks</a> or browse <a href="/guides">every guide on the site</a>.</p>
+  </div>
+
+  <p class="sig">Written by Ilane Tall. Research-based comparisons of published specifications and current prices — we do not physically test these units and we do not publish invented scores.</p>
+
+</main>
+</div>
+
+<footer class="site"><div class="wrap">
+  <div class="fbrand">Best Wine Fridges</div>
+  <p>Independent, research-based comparisons of wine refrigerators, coolers and cellars.</p>
+  <p style="margin:.5rem 0 0"><a href="/about">About</a> · <a href="/guides">All guides</a> · <a href="/contact">Contact</a> · <a href="/privacy">Privacy</a></p>
+  <p>Reader-supported: we may earn a commission when you buy through our links, at no additional cost to you. Comparisons are based on published specs and verified customer reviews; we do not physically test products. Prices change frequently — confirm the current price on Amazon before buying. As an Amazon Associate, we earn from qualifying purchases. © 2026 Best Wine Fridges.</p>
+</div></footer>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Wine Fridge Thermostat Accuracy: Why the Display Doesn't Match the Actual Temperature","description":"A digital readout of 55°F and a thermometer on the middle shelf reading 59°F are both telling the truth — just about different places in the cabinet. Why that gap exists, and when it is actually a fault.","image":"https://best-wine-fridges.com/images/hero-wine-fridge-thermostat-accuracy-why-the-display-doesnt-match-the-actual-temperature.webp","author":{"@type":"Person","name":"Ilane Tall"},"publisher":{"@type":"Organization","name":"Best Wine Fridges","url":"https://best-wine-fridges.com/"},"datePublished":"2026-11-06","dateModified":"2026-11-06","mainEntityOfPage":{"@type":"WebPage","@id":"https://best-wine-fridges.com/wine-fridge-thermostat-accuracy-why-the-display-doesnt-match-the-actual-temperature"},"inLanguage":"en-US"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"HowTo","name":"How to test a wine fridge's real temperature instead of trusting the display","description":"Measure the actual shelf temperature with an independent thermometer rather than relying on the panel reading alone.","step":[
+ {"@type":"HowToStep","name":"Get an independent thermometer","text":"Use a separate digital probe or wireless thermometer-hygrometer, independent of the fridge's own electronics."},
+ {"@type":"HowToStep","name":"Place it on the middle shelf","text":"Position it in the middle of the shelf depth, away from the back wall, the glass door, and any fan vent, so it reads the air where bottles actually sit."},
+ {"@type":"HowToStep","name":"Leave it undisturbed for 24 hours","text":"Avoid opening the door to check it, since every check resets the compressor cycle you are trying to measure."},
+ {"@type":"HowToStep","name":"Compare the 24-hour range to the setpoint","text":"Read the high and low over the full day rather than a single snapshot, and compare that range to the display's setpoint to judge whether the gap is normal."}
+]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+ {"@type":"Question","name":"Why does my wine fridge display say 55°F while a thermometer on the shelf reads something different?","acceptedAnswer":{"@type":"Answer","text":"Because the display is reporting the temperature at the sensor's location, usually near the evaporator coil or air return at the back of the cabinet, not the air in the middle of a shelf where your bottles sit. A 2-5°F difference between those two points is normal for this appliance class and does not by itself indicate a fault."}},
+ {"@type":"Question","name":"Is a 3-5°F gap between the display and a shelf thermometer normal?","acceptedAnswer":{"@type":"Answer","text":"Yes. It reflects both the physical distance between the sensor and the shelf and the thermostat's built-in dead band, which lets the sensor drift a degree or two above and below the setpoint before the compressor cycles on or off again. A stable gap in this range, measured over a full day rather than a single check, is typical rather than a sign of a problem."}},
+ {"@type":"Question","name":"Where exactly is the temperature sensor in a wine fridge?","acceptedAnswer":{"@type":"Answer","text":"On most compressor units it is a thermistor mounted near the evaporator coil, commonly along the back wall or under the bottom shelf, or positioned near where circulated air returns to the cooling unit. It is placed where it reacts quickly and consistently for the compressor's control logic, not where it would best represent the air around your bottles."}},
+ {"@type":"Question","name":"When should I call for warranty service because of a temperature mismatch?","acceptedAnswer":{"@type":"Answer","text":"When the gap is large and keeps growing rather than holding steady, when the display never changes regardless of door openings or room conditions, or when a shelf thermometer shows the cabinet never reaching anywhere near its setpoint even after a full day undisturbed. Any of those points to a sensor, control-board, or cooling fault rather than the normal sensor-to-shelf offset."}}
+]}
+</script>
+
+<script src="/site.js" defer></script>
+</body>
+</html>

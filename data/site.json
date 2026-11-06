@@ -750,6 +750,16 @@
       "minutes": 15,
       "date": "2026-11-05",
       "featured": true
+    },
+    {
+      "slug": "wine-fridge-thermostat-accuracy-why-the-display-doesnt-match-the-actual-temperature",
+      "title": "Wine Fridge Thermostat Accuracy: Why the Display Doesn't Match the Actual Temperature",
+      "description": "A digital readout of 55°F and a thermometer on the middle shelf reading 59°F are both telling the truth — just about different places in the cabinet. Why that gap exists, and when it is actually a fault.",
+      "category": "Troubleshooting",
+      "hero": "hero-wine-fridge-thermostat-accuracy-why-the-display-doesnt-match-the-actual-temperature",
+      "minutes": 12,
+      "date": "2026-11-06",
+      "featured": true
     }
   ]
 }
