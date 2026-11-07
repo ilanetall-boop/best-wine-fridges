@@ -760,6 +760,16 @@
       "minutes": 12,
       "date": "2026-11-06",
       "featured": true
+    },
+    {
+      "slug": "best-wine-fridges-600-to-800",
+      "title": "The Best Wine Fridges From $600 to $800",
+      "description": "Below $600 a cabinet is still making compromises on precision or glass. Above $800 you are paying for scale more than engineering. Four units that sit in the middle, and what the extra money over the budget tier buys.",
+      "category": "Buying guide",
+      "hero": "hero-best-wine-fridges-600-to-800",
+      "minutes": 16,
+      "date": "2026-11-07",
+      "featured": true
     }
   ]
 }
