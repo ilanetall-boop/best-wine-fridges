@@ -890,6 +890,16 @@
       "minutes": 17,
       "date": "2026-11-19",
       "featured": true
+    },
+    {
+      "slug": "how-dual-zone-wine-fridge-cooling-actually-works",
+      "title": "How Dual-Zone Wine Fridge Cooling Actually Works (One Compressor, Two Temperatures)",
+      "description": "Most dual-zone cabinets use one compressor and a baffle to split the box into two temperature bands, not two separate cooling systems. What that mechanical shortcut can and can't do, and where a larger unit buys you more separation.",
+      "category": "Guide",
+      "hero": "hero-how-dual-zone-wine-fridge-cooling-actually-works",
+      "minutes": 16,
+      "date": "2026-11-20",
+      "featured": true
     }
   ]
 }
