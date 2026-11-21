@@ -900,6 +900,16 @@
       "minutes": 16,
       "date": "2026-11-20",
       "featured": true
+    },
+    {
+      "slug": "wine-fridge-electrical-requirements-outlets-and-gfci",
+      "title": "Wine Fridge Electrical Requirements: Outlets, GFCI, and When You Need an Electrician",
+      "description": "A 12-bottle countertop cooler runs fine on any household outlet. An 80-bottle or 154-bottle compressor cabinet is a different load, and a wet-bar location can trigger GFCI code questions a landlord or inspector will actually ask about. What to check before the unit arrives.",
+      "category": "How-to",
+      "hero": "hero-wine-fridge-electrical-requirements-outlets-and-gfci",
+      "minutes": 17,
+      "date": "2026-11-21",
+      "featured": true
     }
   ]
 }
