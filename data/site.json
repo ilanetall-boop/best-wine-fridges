@@ -910,6 +910,16 @@
       "minutes": 17,
       "date": "2026-11-21",
       "featured": true
+    },
+    {
+      "slug": "wine-fridge-frost-and-ice-buildup-explained",
+      "title": "Wine Fridge Frost and Ice Buildup: What It Means and When It's a Problem",
+      "description": "A thin frost on the rear wall after a humid week is usually normal. Ice that keeps growing, or forms on a shelf instead of the back panel, points to a seal or defrost problem that won't clear on its own.",
+      "category": "Troubleshooting",
+      "hero": "hero-wine-fridge-frost-and-ice-buildup-explained",
+      "minutes": 12,
+      "date": "2026-11-22",
+      "featured": true
     }
   ]
 }
