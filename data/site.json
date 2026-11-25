@@ -940,6 +940,16 @@
       "minutes": 15,
       "date": "2026-11-24",
       "featured": true
+    },
+    {
+      "slug": "how-much-does-a-wine-fridge-weigh",
+      "title": "How Much Does a Wine Fridge Weigh? A Size-by-Size Guide",
+      "description": "From a 19-pound six-bottle thermoelectric unit to a 74-pound 33-bottle compressor cabinet, using the manufacturers' own listed weights to answer the question before delivery day.",
+      "category": "Guide",
+      "hero": "hero-how-much-does-a-wine-fridge-weigh",
+      "minutes": 18,
+      "date": "2026-11-25",
+      "featured": true
     }
   ]
 }
