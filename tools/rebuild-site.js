@@ -73,7 +73,7 @@ const guidesHtml = `<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>All Guides — ${SITE.name}</title>
-<meta name="description" content="Every bidet seat guide, comparison and how-to on ${SITE.name} — research-based, honest, and updated for 2026.">
+<meta name="description" content="Every guide, comparison and how-to on ${SITE.name} — research-based, honest, and updated for 2026.">
 <link rel="canonical" href="${SITE.base_url}/guides">
 <meta name="theme-color" content="#08191C">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
